@@ -251,7 +251,7 @@ INSERT INTO `xp_currencies` (`status`, `code`, `number`, `name`, `value`, `decim
 -- --------------------------------------------------------
 INSERT INTO `xp_languages` (`status`, `code`, `code2`, `name`, `locale`, `charset`, `url_type`, `raw_date`, `raw_time`, `raw_datetime`, `format_date`, `format_time`, `format_datetime`, `decimal_point`, `thousands_sep`, `priority`, `date_updated`, `date_created`) VALUES
 (1, 'en', 'eng', 'English', 'en_US.utf8,en_US.UTF-8,english', 'UTF-8', 'none', 'm/d/y', 'h:i:s A', 'm/d/y h:i:s A', '%b %e %Y', '%I:%M %p', '%b %e %Y %I:%M %p', '.', ',', 0, NOW(), NOW()),
-(2, 'bs', 'bos', 'Bosanski', 'bs_BA.utf8,bs_BA.UTF-8,bosanski', 'UTF-8', 'none', 'd/m/y', 'h:i:s A', 'd/m/y h:i:s A', '%b %e %Y', '%I:%M %p', '%b %e %Y %I:%M %p', '.', ',', 0, NOW(), NOW());
+(1, 'bs', 'bos', 'Bosanski', 'bs_BA.utf8,bs_BA.UTF-8,bosanski', 'UTF-8', 'none', 'd/m/y', 'h:i:s A', 'd/m/y h:i:s A', '%b %e %Y', '%I:%M %p', '%b %e %Y %I:%M %p', '.', ',', 0, NOW(), NOW());
 -- --------------------------------------------------------
 INSERT INTO `xp_modules` (`id`, `module_id`, `type`, `status`, `priority`, `settings`, `last_log`, `date_updated`, `date_created`) VALUES
 (1, 'ot_subtotal', 'order_total', 1, 1, '{"status":"1","priority":"1"}', '', NOW(), NOW()),
@@ -279,7 +279,6 @@ INSERT INTO `xp_settings` (`setting_group_key`, `type`, `title`, `description`, 
 ('site_info', 'global', 'Site Email', 'The site\'s email address.', 'site_email', '{SITE_EMAIL}', 'text()', 11, NOW(), NOW()),
 ('site_info', 'global', 'Site License Key', 'The site\'s license key.', 'site_license', 'XX000000000000', 'text()', 12, NOW(), NOW()),
 ('site_info', 'local', 'Site Postal Address', 'The site\'s postal address.', 'site_postal_address', 'My Site\r\nStreet\r\nPostcode City\r\nCountry', 'bigtext()', 13, NOW(), NOW()),
-('site_info', 'global', 'Site Audio/Shoutcast Link', 'The audio link from shoutcast.', 'site_shoutcast', '', 'text()', 14, NOW(), NOW()),
 ('site_info', 'local', 'Site Phone Number', 'The site\'s phone number.', 'site_phone', '+38762000111', 'text()', 15, NOW(), NOW()),
 ('site_info', 'global', 'Site Country', 'The country of your site.', 'site_country_code', '{SITE_COUNTRY_CODE}', 'country()', 16, NOW(), NOW()),
 ('site_info', 'global', 'Site Zone', 'The zone of your site.', 'site_zone_code', '', 'zone("default_zone_code")', 17, NOW(), NOW()),

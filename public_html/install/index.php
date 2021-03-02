@@ -470,13 +470,6 @@ input[name="development_type"]:checked + div {
       <label>Table Prefix</label>
       <input class="form-control" name="db_table_prefix" type="text" value="xp_" style="max-width: 50%;" />
     </div>
-
-    <div class="form-group col-md-6">
-      <label>Demo Data</label>
-      <div class="checkbox">
-        <label><input name="demo_data" type="checkbox" value="true" <?php echo !file_exists('data/demo/data.sql') ? 'disabled="disabled"' : ''; ?> /> Install demo data</label>
-      </div>
-    </div>
   </div>
 
   <h3>Site Information</h3>

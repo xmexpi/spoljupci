@@ -17,7 +17,7 @@
   define('WS_DIR_ADMIN',       WS_DIR_APP . BACKEND_ALIAS . '/');
 
 ######################################################################
-## Backwards Compatible Directory Definitions (LiteCart <2.2) ########
+## Backwards Compatible Directory Definitions (xMexpi < v1.0) ########
 ######################################################################
 
 // File System
