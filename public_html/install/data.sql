@@ -251,7 +251,7 @@ INSERT INTO `xp_currencies` (`status`, `code`, `number`, `name`, `value`, `decim
 -- --------------------------------------------------------
 INSERT INTO `xp_languages` (`status`, `code`, `code2`, `name`, `locale`, `charset`, `url_type`, `raw_date`, `raw_time`, `raw_datetime`, `format_date`, `format_time`, `format_datetime`, `decimal_point`, `thousands_sep`, `priority`, `date_updated`, `date_created`) VALUES
 (1, 'en', 'eng', 'English', 'en_US.utf8,en_US.UTF-8,english', 'UTF-8', 'none', 'm/d/y', 'h:i:s A', 'm/d/y h:i:s A', '%b %e %Y', '%I:%M %p', '%b %e %Y %I:%M %p', '.', ',', 0, NOW(), NOW()),
-(2, 'bs', 'bos', 'Bosanski', 'bs_BA.utf8,bs_BA.UTF-8,bosanski', 'UTF-8', 'none', 'd.m.Y', 'H:i', 'd.m.Y H:i', '%e %b %Y', '%H:%M', '%e %b %Y %H:%M', '.', ',', 0, NOW(), NOW());
+(1, 'bs', 'bos', 'Bosanski', 'bs_BA.utf8,bs_BA.UTF-8,bosanski', 'UTF-8', 'none', 'd.m.Y', 'H:i', 'd.m.Y H:i', '%e %b %Y', '%H:%M', '%e %b %Y %H:%M', '.', ',', 0, NOW(), NOW());
 -- --------------------------------------------------------
 INSERT INTO `xp_modules` (`id`, `module_id`, `type`, `status`, `priority`, `settings`, `last_log`, `date_updated`, `date_created`) VALUES
 (1, 'ot_subtotal', 'order_total', 1, 1, '{"status":"1","priority":"1"}', '', NOW(), NOW()),

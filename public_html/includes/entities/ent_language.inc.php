@@ -123,17 +123,7 @@
             );
 
             $info_tables = array(
-              DB_TABLE_ATTRIBUTE_GROUPS_INFO,
-              DB_TABLE_ATTRIBUTE_VALUES_INFO,
-              DB_TABLE_CATEGORIES_INFO,
-              DB_TABLE_DELIVERY_STATUSES_INFO,
-              DB_TABLE_MANUFACTURERS_INFO,
-              DB_TABLE_ORDER_STATUSES_INFO,
               DB_TABLE_PAGES_INFO,
-              DB_TABLE_PRODUCTS_INFO,
-              DB_TABLE_QUANTITY_UNITS_INFO,
-              DB_TABLE_SLIDES_INFO,
-              DB_TABLE_SOLD_OUT_STATUSES_INFO,
             );
 
             foreach ($info_tables as $table) {
@@ -199,17 +189,7 @@
       }
 
       $info_tables = array(
-        DB_TABLE_ATTRIBUTE_GROUPS_INFO,
-        DB_TABLE_ATTRIBUTE_VALUES_INFO,
-        DB_TABLE_CATEGORIES_INFO,
-        DB_TABLE_DELIVERY_STATUSES_INFO,
-        DB_TABLE_MANUFACTURERS_INFO,
-        DB_TABLE_ORDER_STATUSES_INFO,
         DB_TABLE_PAGES_INFO,
-        DB_TABLE_PRODUCTS_INFO,
-        DB_TABLE_QUANTITY_UNITS_INFO,
-        DB_TABLE_SLIDES_INFO,
-        DB_TABLE_SOLD_OUT_STATUSES_INFO,
       );
 
       foreach ($info_tables as $table) {
