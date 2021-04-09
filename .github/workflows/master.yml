@@ -19,4 +19,4 @@ jobs:
           password: ${{ secrets.ftp_password }}
           server-dir: /
           local-dir: ./public_html/
-          exclude: "[.git*, .git*/**, **/.git*/**, node_modules, node_modules/**, config.php, database.php, assets/**, backup/**, vendor/**, files/**, images/**, package.json, config.inc.php, package-lock.json, install, install/**]"
+          exclude: "[.git*, .git*/**, **/.git*/**, node_modules, node_modules/**, config.php, database.php, assets/**, backup/**, vendor/**, files/**, images/**, package.json, config.inc.php, package-lock.json]"
