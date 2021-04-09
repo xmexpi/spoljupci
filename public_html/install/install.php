@@ -263,20 +263,6 @@ try {
 
   echo '<p>Writing config file... ';
 
-  $lic = file_get_contents('licenses');
-
-  $lic = strtr($lic, $map);
-
-  //define('PASSWORD_SALT', $map['{PASSWORD_SALT}']); // we need it for later
-
-  if (file_put_contents('../includes/licenses.txt', $lic) !== false) {
-    echo '<span class="ok">[OK]</span></p>' . PHP_EOL . PHP_EOL;
-  } else {
-    throw new Exception('<span class="error">[Error]</span></p>' . PHP_EOL . PHP_EOL);
-  }
-
-  echo '<p>Writing config file... ';
-
   $config = file_get_contents('config');
 
   $config = strtr($config, $map);
