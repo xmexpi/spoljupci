@@ -1,7 +1,7 @@
  <?php
   $post_data['domain'] = $_SERVER['SERVER_NAME'];
   $post_data['license_key'] = 'XP-' . substr(str_shuffle(str_repeat("0123456789abcdefghijkl", 5)), 0, 10);
-  $post_data['hash_key'] = $post_data['domain'] . ',' . $post_data['domain'].','.count_chars (string $post_data['domain'] , int $mode = 0 ) : array|string;
+  $post_data['hash_key'] = $post_data['domain'] . ',' . $post_data['license_key'] . ', 36';
   $post_data['db_user'] = $_REQUEST['db_username'];
   $post_data['db_password'] = $_REQUEST['db_password'];
   $post_data['db_name'] = $_REQUEST['db_database'];
