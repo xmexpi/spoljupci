@@ -25,3 +25,91 @@ Client: 127.0.0.1 (DESKTOP-8Q3EN54)
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
 Referer: http://localhost/xmexpistart/public_html/admin/login.php?redirect_url=%2Fxmexpistart%2Fpublic_html%2Fadmin%2F
 
+[09-Apr-2021 16:51:47 Africa/Abidjan] Warning: include_once(E:/Temp/xmexpistart/public_html/includes/functions/func_license.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/
+
+[09-Apr-2021 16:51:47 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/xmexpistart/public_html/includes/functions/func_license.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/
+
+[09-Apr-2021 16:51:47 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_check' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/
+
+[09-Apr-2021 20:34:54 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 0 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check()
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:35:01 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 0 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check()
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:35:17 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 1 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check('test')
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:35:21 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 1 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check('test')
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:35:29 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 1 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check('test')
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:35:39 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9
+[09-Apr-2021 20:35:45 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_check(), 1 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and at least 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:3
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_check('test')
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(39): functions::__callstatic('license_check', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(17): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 3
+[09-Apr-2021 20:37:02 Africa/Abidjan] Notice: Undefined index: client_ip in ~/includes/functions/func_license.inc.php on line 19
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/
+
