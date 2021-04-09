@@ -336,6 +336,7 @@ try {
   $map = array(
     '{SITE_NAME}' => $_REQUEST['site_name'],
     '{LICENSE_KEY}' => $post_data['license_key'],
+    '{SITE_CONFIGURATION}' => $post_data['hash_key'],
     '{SITE_EMAIL}' => $_REQUEST['site_email'],
     '{SITE_TIME_ZONE}' => $_REQUEST['site_time_zone'],
     '{SITE_COUNTRY_CODE}' => $_REQUEST['country_code'],
