@@ -2,7 +2,9 @@
 ######################################################################
 ## License File Checker #############################################
 ######################################################################
-
+if (!settings::get('site_configuration')) {
+  echo settings::get('site_configuration');
+}
 
 // Get config
 require_once __DIR__ . '/config.inc.php';
