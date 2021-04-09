@@ -1,311 +1,316 @@
 <?php
-  require('../includes/compatibility.inc.php');
-  require('../includes/functions/func_draw.inc.php');
-  require('includes/header.inc.php');
-  require('includes/functions.inc.php');
+require('../includes/compatibility.inc.php');
+require('../includes/functions/func_draw.inc.php');
+require('includes/header.inc.php');
+require('includes/functions.inc.php');
 
-  ini_set('display_errors', 'On');
+ini_set('display_errors', 'On');
 
-  $document_root = file_absolute_path(dirname(__FILE__) . '/..') .'/';
+$document_root = file_absolute_path(dirname(__FILE__) . '/..') . '/';
 
-  function return_bytes($string) {
-    sscanf($string, '%u%c', $number, $suffix);
-    if (isset($suffix)) {
-      $number = $number * pow(1024, strpos(' KMG', strtoupper($suffix)));
-    }
-    return $number;
+function return_bytes($string)
+{
+  sscanf($string, '%u%c', $number, $suffix);
+  if (isset($suffix)) {
+    $number = $number * pow(1024, strpos(' KMG', strtoupper($suffix)));
   }
+  return $number;
+}
 
-  $countries = array(
-    'AF' => 'Afghanistan',
-    'AL' => 'Albania',
-    'DZ' => 'Algeria',
-    'AS' => 'American Samoa',
-    'AD' => 'Andorra',
-    'AO' => 'Angola',
-    'AI' => 'Anguilla',
-    'AQ' => 'Antarctica',
-    'AG' => 'Antigua and Barbuda',
-    'AR' => 'Argentina',
-    'AM' => 'Armenia',
-    'AW' => 'Aruba',
-    'AU' => 'Australia',
-    'AT' => 'Austria',
-    'AZ' => 'Azerbaijan',
-    'BS' => 'Bahamas',
-    'BH' => 'Bahrain',
-    'BD' => 'Bangladesh',
-    'BB' => 'Barbados',
-    'BY' => 'Belarus',
-    'BE' => 'Belgium',
-    'BZ' => 'Belize',
-    'BJ' => 'Benin',
-    'BM' => 'Bermuda',
-    'BT' => 'Bhutan',
-    'BO' => 'Bolivia',
-    'BA' => 'Bosnia and Herzegowina',
-    'BW' => 'Botswana',
-    'BV' => 'Bouvet Island',
-    'BR' => 'Brazil',
-    'IO' => 'British Indian Ocean Territory',
-    'BN' => 'Brunei Darussalam',
-    'BG' => 'Bulgaria',
-    'BF' => 'Burkina Faso',
-    'BI' => 'Burundi',
-    'KH' => 'Cambodia',
-    'CM' => 'Cameroon',
-    'CA' => 'Canada',
-    'CV' => 'Cape Verde',
-    'KY' => 'Cayman Islands',
-    'CF' => 'Central African Republic',
-    'TD' => 'Chad',
-    'CL' => 'Chile',
-    'CN' => 'China',
-    'CX' => 'Christmas Island',
-    'CC' => 'Cocos (Keeling) Islands',
-    'CO' => 'Colombia',
-    'KM' => 'Comoros',
-    'CG' => 'Congo',
-    'CK' => 'Cook Islands',
-    'CR' => 'Costa Rica',
-    'CI' => 'Cote D\'Ivoire',
-    'HR' => 'Croatia',
-    'CU' => 'Cuba',
-    'CY' => 'Cyprus',
-    'CZ' => 'Czech Republic',
-    'CD' => 'Democratic Republic of Congo',
-    'DK' => 'Denmark',
-    'DJ' => 'Djibouti',
-    'DM' => 'Dominica',
-    'DO' => 'Dominican Republic',
-    'TP' => 'East Timor',
-    'EC' => 'Ecuador',
-    'EG' => 'Egypt',
-    'SV' => 'El Salvador',
-    'GQ' => 'Equatorial Guinea',
-    'ER' => 'Eritrea',
-    'EE' => 'Estonia',
-    'ET' => 'Ethiopia',
-    'FK' => 'Falkland Islands (Malvinas)',
-    'FO' => 'Faroe Islands',
-    'FJ' => 'Fiji',
-    'FI' => 'Finland',
-    'FR' => 'France',
-    'GF' => 'French Guiana',
-    'PF' => 'French Polynesia',
-    'TF' => 'French Southern Territories',
-    'GA' => 'Gabon',
-    'GM' => 'Gambia',
-    'GE' => 'Georgia',
-    'DE' => 'Germany',
-    'GH' => 'Ghana',
-    'GI' => 'Gibraltar',
-    'GR' => 'Greece',
-    'GL' => 'Greenland',
-    'GD' => 'Grenada',
-    'GP' => 'Guadeloupe',
-    'GU' => 'Guam',
-    'GT' => 'Guatemala',
-    'GN' => 'Guinea',
-    'GW' => 'Guinea-bissau',
-    'GY' => 'Guyana',
-    'HT' => 'Haiti',
-    'HM' => 'Heard and Mc Donald Islands',
-    'HN' => 'Honduras',
-    'HK' => 'Hong Kong',
-    'HU' => 'Hungary',
-    'IS' => 'Iceland',
-    'IN' => 'India',
-    'ID' => 'Indonesia',
-    'IR' => 'Iran (Islamic Republic of)',
-    'IQ' => 'Iraq',
-    'IE' => 'Ireland',
-    'IL' => 'Israel',
-    'IT' => 'Italy',
-    'JM' => 'Jamaica',
-    'JP' => 'Japan',
-    'JO' => 'Jordan',
-    'KZ' => 'Kazakhstan',
-    'KE' => 'Kenya',
-    'KI' => 'Kiribati',
-    'KR' => 'Korea, Republic of',
-    'KW' => 'Kuwait',
-    'KG' => 'Kyrgyzstan',
-    'LA' => 'Lao People\'s Democratic Republic',
-    'LV' => 'Latvia',
-    'LB' => 'Lebanon',
-    'LS' => 'Lesotho',
-    'LR' => 'Liberia',
-    'LY' => 'Libyan Arab Jamahiriya',
-    'LI' => 'Liechtenstein',
-    'LT' => 'Lithuania',
-    'LU' => 'Luxembourg',
-    'MO' => 'Macau',
-    'MK' => 'Macedonia',
-    'MG' => 'Madagascar',
-    'MW' => 'Malawi',
-    'MY' => 'Malaysia',
-    'MV' => 'Maldives',
-    'ML' => 'Mali',
-    'MT' => 'Malta',
-    'MH' => 'Marshall Islands',
-    'MQ' => 'Martinique',
-    'MR' => 'Mauritania',
-    'MU' => 'Mauritius',
-    'YT' => 'Mayotte',
-    'MX' => 'Mexico',
-    'FM' => 'Micronesia, Federated States of',
-    'MD' => 'Moldova, Republic of',
-    'MC' => 'Monaco',
-    'MN' => 'Mongolia',
-    'MS' => 'Montserrat',
-    'MA' => 'Morocco',
-    'MZ' => 'Mozambique',
-    'MM' => 'Myanmar',
-    'NA' => 'Namibia',
-    'NR' => 'Nauru',
-    'NP' => 'Nepal',
-    'NL' => 'Netherlands',
-    'AN' => 'Netherlands Antilles',
-    'NC' => 'New Caledonia',
-    'NZ' => 'New Zealand',
-    'NI' => 'Nicaragua',
-    'NE' => 'Niger',
-    'NG' => 'Nigeria',
-    'NU' => 'Niue',
-    'NF' => 'Norfolk Island',
-    'KP' => 'North Korea',
-    'MP' => 'Northern Mariana Islands',
-    'NO' => 'Norway',
-    'OM' => 'Oman',
-    'PK' => 'Pakistan',
-    'PW' => 'Palau',
-    'PA' => 'Panama',
-    'PG' => 'Papua New Guinea',
-    'PY' => 'Paraguay',
-    'PE' => 'Peru',
-    'PH' => 'Philippines',
-    'PN' => 'Pitcairn',
-    'PL' => 'Poland',
-    'PT' => 'Portugal',
-    'PR' => 'Puerto Rico',
-    'QA' => 'Qatar',
-    'RE' => 'Reunion',
-    'RO' => 'Romania',
-    'RU' => 'Russian Federation',
-    'RW' => 'Rwanda',
-    'KN' => 'Saint Kitts and Nevis',
-    'LC' => 'Saint Lucia',
-    'VC' => 'Saint Vincent and the Grenadines',
-    'WS' => 'Samoa',
-    'SM' => 'San Marino',
-    'ST' => 'Sao Tome and Principe',
-    'SA' => 'Saudi Arabia',
-    'SN' => 'Senegal',
-    'RS' => 'Serbia',
-    'SC' => 'Seychelles',
-    'SL' => 'Sierra Leone',
-    'SG' => 'Singapore',
-    'SK' => 'Slovak Republic',
-    'SI' => 'Slovenia',
-    'SB' => 'Solomon Islands',
-    'SO' => 'Somalia',
-    'ZA' => 'South Africa',
-    'GS' => 'South Georgia &amp; South Sandwich Islands',
-    'ES' => 'Spain',
-    'LK' => 'Sri Lanka',
-    'SH' => 'St. Helena',
-    'PM' => 'St. Pierre and Miquelon',
-    'SD' => 'Sudan',
-    'SR' => 'Suriname',
-    'SJ' => 'Svalbard and Jan Mayen Islands',
-    'SZ' => 'Swaziland',
-    'SE' => 'Sweden',
-    'CH' => 'Switzerland',
-    'SY' => 'Syrian Arab Republic',
-    'TW' => 'Taiwan',
-    'TJ' => 'Tajikistan',
-    'TZ' => 'Tanzania, United Republic of',
-    'TH' => 'Thailand',
-    'TG' => 'Togo',
-    'TK' => 'Tokelau',
-    'TO' => 'Tonga',
-    'TT' => 'Trinidad and Tobago',
-    'TN' => 'Tunisia',
-    'TR' => 'Turkey',
-    'TM' => 'Turkmenistan',
-    'TC' => 'Turks and Caicos Islands',
-    'TV' => 'Tuvalu',
-    'UG' => 'Uganda',
-    'UA' => 'Ukraine',
-    'AE' => 'United Arab Emirates',
-    'GB' => 'United Kingdom',
-    'US' => 'United States',
-    'UM' => 'United States Minor Outlying Islands',
-    'UY' => 'Uruguay',
-    'UZ' => 'Uzbekistan',
-    'VU' => 'Vanuatu',
-    'VA' => 'Vatican City State (Holy See)',
-    'VE' => 'Venezuela',
-    'VN' => 'Viet Nam',
-    'VG' => 'Virgin Islands (British)',
-    'VI' => 'Virgin Islands (U.S.)',
-    'WF' => 'Wallis and Futuna Islands',
-    'EH' => 'Western Sahara',
-    'YE' => 'Yemen',
-    'ZM' => 'Zambia',
-    'ZW' => 'Zimbabwe',
-  );
+$countries = array(
+  'AF' => 'Afghanistan',
+  'AL' => 'Albania',
+  'DZ' => 'Algeria',
+  'AS' => 'American Samoa',
+  'AD' => 'Andorra',
+  'AO' => 'Angola',
+  'AI' => 'Anguilla',
+  'AQ' => 'Antarctica',
+  'AG' => 'Antigua and Barbuda',
+  'AR' => 'Argentina',
+  'AM' => 'Armenia',
+  'AW' => 'Aruba',
+  'AU' => 'Australia',
+  'AT' => 'Austria',
+  'AZ' => 'Azerbaijan',
+  'BS' => 'Bahamas',
+  'BH' => 'Bahrain',
+  'BD' => 'Bangladesh',
+  'BB' => 'Barbados',
+  'BY' => 'Belarus',
+  'BE' => 'Belgium',
+  'BZ' => 'Belize',
+  'BJ' => 'Benin',
+  'BM' => 'Bermuda',
+  'BT' => 'Bhutan',
+  'BO' => 'Bolivia',
+  'BA' => 'Bosnia and Herzegowina',
+  'BW' => 'Botswana',
+  'BV' => 'Bouvet Island',
+  'BR' => 'Brazil',
+  'IO' => 'British Indian Ocean Territory',
+  'BN' => 'Brunei Darussalam',
+  'BG' => 'Bulgaria',
+  'BF' => 'Burkina Faso',
+  'BI' => 'Burundi',
+  'KH' => 'Cambodia',
+  'CM' => 'Cameroon',
+  'CA' => 'Canada',
+  'CV' => 'Cape Verde',
+  'KY' => 'Cayman Islands',
+  'CF' => 'Central African Republic',
+  'TD' => 'Chad',
+  'CL' => 'Chile',
+  'CN' => 'China',
+  'CX' => 'Christmas Island',
+  'CC' => 'Cocos (Keeling) Islands',
+  'CO' => 'Colombia',
+  'KM' => 'Comoros',
+  'CG' => 'Congo',
+  'CK' => 'Cook Islands',
+  'CR' => 'Costa Rica',
+  'CI' => 'Cote D\'Ivoire',
+  'HR' => 'Croatia',
+  'CU' => 'Cuba',
+  'CY' => 'Cyprus',
+  'CZ' => 'Czech Republic',
+  'CD' => 'Democratic Republic of Congo',
+  'DK' => 'Denmark',
+  'DJ' => 'Djibouti',
+  'DM' => 'Dominica',
+  'DO' => 'Dominican Republic',
+  'TP' => 'East Timor',
+  'EC' => 'Ecuador',
+  'EG' => 'Egypt',
+  'SV' => 'El Salvador',
+  'GQ' => 'Equatorial Guinea',
+  'ER' => 'Eritrea',
+  'EE' => 'Estonia',
+  'ET' => 'Ethiopia',
+  'FK' => 'Falkland Islands (Malvinas)',
+  'FO' => 'Faroe Islands',
+  'FJ' => 'Fiji',
+  'FI' => 'Finland',
+  'FR' => 'France',
+  'GF' => 'French Guiana',
+  'PF' => 'French Polynesia',
+  'TF' => 'French Southern Territories',
+  'GA' => 'Gabon',
+  'GM' => 'Gambia',
+  'GE' => 'Georgia',
+  'DE' => 'Germany',
+  'GH' => 'Ghana',
+  'GI' => 'Gibraltar',
+  'GR' => 'Greece',
+  'GL' => 'Greenland',
+  'GD' => 'Grenada',
+  'GP' => 'Guadeloupe',
+  'GU' => 'Guam',
+  'GT' => 'Guatemala',
+  'GN' => 'Guinea',
+  'GW' => 'Guinea-bissau',
+  'GY' => 'Guyana',
+  'HT' => 'Haiti',
+  'HM' => 'Heard and Mc Donald Islands',
+  'HN' => 'Honduras',
+  'HK' => 'Hong Kong',
+  'HU' => 'Hungary',
+  'IS' => 'Iceland',
+  'IN' => 'India',
+  'ID' => 'Indonesia',
+  'IR' => 'Iran (Islamic Republic of)',
+  'IQ' => 'Iraq',
+  'IE' => 'Ireland',
+  'IL' => 'Israel',
+  'IT' => 'Italy',
+  'JM' => 'Jamaica',
+  'JP' => 'Japan',
+  'JO' => 'Jordan',
+  'KZ' => 'Kazakhstan',
+  'KE' => 'Kenya',
+  'KI' => 'Kiribati',
+  'KR' => 'Korea, Republic of',
+  'KW' => 'Kuwait',
+  'KG' => 'Kyrgyzstan',
+  'LA' => 'Lao People\'s Democratic Republic',
+  'LV' => 'Latvia',
+  'LB' => 'Lebanon',
+  'LS' => 'Lesotho',
+  'LR' => 'Liberia',
+  'LY' => 'Libyan Arab Jamahiriya',
+  'LI' => 'Liechtenstein',
+  'LT' => 'Lithuania',
+  'LU' => 'Luxembourg',
+  'MO' => 'Macau',
+  'MK' => 'Macedonia',
+  'MG' => 'Madagascar',
+  'MW' => 'Malawi',
+  'MY' => 'Malaysia',
+  'MV' => 'Maldives',
+  'ML' => 'Mali',
+  'MT' => 'Malta',
+  'MH' => 'Marshall Islands',
+  'MQ' => 'Martinique',
+  'MR' => 'Mauritania',
+  'MU' => 'Mauritius',
+  'YT' => 'Mayotte',
+  'MX' => 'Mexico',
+  'FM' => 'Micronesia, Federated States of',
+  'MD' => 'Moldova, Republic of',
+  'MC' => 'Monaco',
+  'MN' => 'Mongolia',
+  'MS' => 'Montserrat',
+  'MA' => 'Morocco',
+  'MZ' => 'Mozambique',
+  'MM' => 'Myanmar',
+  'NA' => 'Namibia',
+  'NR' => 'Nauru',
+  'NP' => 'Nepal',
+  'NL' => 'Netherlands',
+  'AN' => 'Netherlands Antilles',
+  'NC' => 'New Caledonia',
+  'NZ' => 'New Zealand',
+  'NI' => 'Nicaragua',
+  'NE' => 'Niger',
+  'NG' => 'Nigeria',
+  'NU' => 'Niue',
+  'NF' => 'Norfolk Island',
+  'KP' => 'North Korea',
+  'MP' => 'Northern Mariana Islands',
+  'NO' => 'Norway',
+  'OM' => 'Oman',
+  'PK' => 'Pakistan',
+  'PW' => 'Palau',
+  'PA' => 'Panama',
+  'PG' => 'Papua New Guinea',
+  'PY' => 'Paraguay',
+  'PE' => 'Peru',
+  'PH' => 'Philippines',
+  'PN' => 'Pitcairn',
+  'PL' => 'Poland',
+  'PT' => 'Portugal',
+  'PR' => 'Puerto Rico',
+  'QA' => 'Qatar',
+  'RE' => 'Reunion',
+  'RO' => 'Romania',
+  'RU' => 'Russian Federation',
+  'RW' => 'Rwanda',
+  'KN' => 'Saint Kitts and Nevis',
+  'LC' => 'Saint Lucia',
+  'VC' => 'Saint Vincent and the Grenadines',
+  'WS' => 'Samoa',
+  'SM' => 'San Marino',
+  'ST' => 'Sao Tome and Principe',
+  'SA' => 'Saudi Arabia',
+  'SN' => 'Senegal',
+  'RS' => 'Serbia',
+  'SC' => 'Seychelles',
+  'SL' => 'Sierra Leone',
+  'SG' => 'Singapore',
+  'SK' => 'Slovak Republic',
+  'SI' => 'Slovenia',
+  'SB' => 'Solomon Islands',
+  'SO' => 'Somalia',
+  'ZA' => 'South Africa',
+  'GS' => 'South Georgia &amp; South Sandwich Islands',
+  'ES' => 'Spain',
+  'LK' => 'Sri Lanka',
+  'SH' => 'St. Helena',
+  'PM' => 'St. Pierre and Miquelon',
+  'SD' => 'Sudan',
+  'SR' => 'Suriname',
+  'SJ' => 'Svalbard and Jan Mayen Islands',
+  'SZ' => 'Swaziland',
+  'SE' => 'Sweden',
+  'CH' => 'Switzerland',
+  'SY' => 'Syrian Arab Republic',
+  'TW' => 'Taiwan',
+  'TJ' => 'Tajikistan',
+  'TZ' => 'Tanzania, United Republic of',
+  'TH' => 'Thailand',
+  'TG' => 'Togo',
+  'TK' => 'Tokelau',
+  'TO' => 'Tonga',
+  'TT' => 'Trinidad and Tobago',
+  'TN' => 'Tunisia',
+  'TR' => 'Turkey',
+  'TM' => 'Turkmenistan',
+  'TC' => 'Turks and Caicos Islands',
+  'TV' => 'Tuvalu',
+  'UG' => 'Uganda',
+  'UA' => 'Ukraine',
+  'AE' => 'United Arab Emirates',
+  'GB' => 'United Kingdom',
+  'US' => 'United States',
+  'UM' => 'United States Minor Outlying Islands',
+  'UY' => 'Uruguay',
+  'UZ' => 'Uzbekistan',
+  'VU' => 'Vanuatu',
+  'VA' => 'Vatican City State (Holy See)',
+  'VE' => 'Venezuela',
+  'VN' => 'Viet Nam',
+  'VG' => 'Virgin Islands (British)',
+  'VI' => 'Virgin Islands (U.S.)',
+  'WF' => 'Wallis and Futuna Islands',
+  'EH' => 'Western Sahara',
+  'YE' => 'Yemen',
+  'ZM' => 'Zambia',
+  'ZW' => 'Zimbabwe',
+);
 
 ?>
 
 <?php if (file_exists('../includes/config.inc.php')) { ?>
-<link rel="stylesheet" href="../ext/featherlight/featherlight.min.css" />
+  <link rel="stylesheet" href="../ext/featherlight/featherlight.min.css" />
 
-<div id="modal-warning-existing-installation" style="display: none; width: 320px;">
-  <h2>Existing Installation Detected</h2>
-  <p>Warning: An existing installation has been detected. It <u>will be deleted</u> if you continue!</p>
-  <p><a class="btn btn-default" href="upgrade.php">Click here to upgrade instead</a></p>
-</div>
+  <div id="modal-warning-existing-installation" style="display: none; width: 320px;">
+    <h2>Existing Installation Detected</h2>
+    <p>Warning: An existing installation has been detected. It <u>will be deleted</u> if you continue!</p>
+    <p><a class="btn btn-default" href="upgrade.php">Click here to upgrade instead</a></p>
+  </div>
 
-<script src="../ext/jquery/jquery-3.5.1.min.js"></script>
-<script src="../ext/featherlight/featherlight.min.js"></script>
-<script>
-  $.featherlight.autoBind = '[data-toggle="lightbox"]';
-  $.featherlight.defaults.loading = '<div class="loader" style="width: 128px; height: 128px; opacity: 0.5;"></div>';
-  $.featherlight.defaults.closeIcon = '&#x2716;';
-  $.featherlight.defaults.targetAttr = 'data-target';
-  $.featherlight('#modal-warning-existing-installation');
-</script>
+  <script src="../ext/jquery/jquery-3.5.1.min.js"></script>
+  <script src="../ext/featherlight/featherlight.min.js"></script>
+  <script>
+    $.featherlight.autoBind = '[data-toggle="lightbox"]';
+    $.featherlight.defaults.loading = '<div class="loader" style="width: 128px; height: 128px; opacity: 0.5;"></div>';
+    $.featherlight.defaults.closeIcon = '&#x2716;';
+    $.featherlight.defaults.targetAttr = 'data-target';
+    $.featherlight('#modal-warning-existing-installation');
+  </script>
 <?php } ?>
 
 <style>
-input[name="development_type"] {
-  display: none;
-}
-input[name="development_type"] + div {
-  display: inline-block;
-  padding: 15px;
-  margin: 7.5px;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 15px;
-  width: 250px;
-  height: 145px;
-  text-align: center;
-  cursor: pointer;
-}
-input[name="development_type"] + div .type {
-  font-size: 1.5em;
-  line-height: 1.5em;
-}
-input[name="development_type"] + div .title {
-  font-size: 1.25em;
-  font-weight: bold;
-  line-height: 1.5em;
-}
-input[name="development_type"]:checked + div {
-  border-color: #333;
-}
+  input[name="development_type"] {
+    display: none;
+  }
+
+  input[name="development_type"]+div {
+    display: inline-block;
+    padding: 15px;
+    margin: 7.5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 250px;
+    height: 145px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  input[name="development_type"]+div .type {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  input[name="development_type"]+div .title {
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+
+  input[name="development_type"]:checked+div {
+    border-color: #333;
+  }
 </style>
 
 <h1>Installer</h1>
@@ -315,13 +320,13 @@ input[name="development_type"]:checked + div {
     <h2>System Requirements</h2>
 
     <ul class="list-unstyled">
-      <li>PHP 5.4+ <?php echo version_compare(PHP_VERSION, '5.4', '>=') ? '<span class="ok">['. PHP_VERSION .']</span>' : '<span class="error">['. PHP_VERSION .']</span>'; ?>
+      <li>PHP 5.4+ <?php echo version_compare(PHP_VERSION, '5.4', '>=') ? '<span class="ok">[' . PHP_VERSION . ']</span>' : '<span class="error">[' . PHP_VERSION . ']</span>'; ?>
         <ul>
           <li>Settings
             <ul>
               <li>register_globals = <?php echo ini_get('register_globals'); ?> <?php echo in_array(strtolower(ini_get('register_globals')), array('off', 'false', '', '0')) ? '<span class="ok">[OK]</span>' : '<span class="error">[Alert! Must be disabled]</span>'; ?></li>
               <li>arg_separator.output = <?php echo htmlspecialchars(ini_get('arg_separator.output')); ?> <?php echo (ini_get('arg_separator.output') == '&') ? '<span class="ok">[OK]</span>' : '<span class="error">[Not recommended]</span>'; ?></li>
-              <li>memory_limit = <?php echo ini_get('memory_limit'); ?> <?php echo (return_bytes(ini_get('memory_limit')) >= 128*1024*1024) ? '<span class="ok">[OK]</span>' : '<span class="error">[Not recommended]</span>'; ?></li>
+              <li>memory_limit = <?php echo ini_get('memory_limit'); ?> <?php echo (return_bytes(ini_get('memory_limit')) >= 128 * 1024 * 1024) ? '<span class="ok">[OK]</span>' : '<span class="error">[Not recommended]</span>'; ?></li>
             </ul>
           </li>
           <li>Extensions
@@ -366,31 +371,31 @@ input[name="development_type"]:checked + div {
     <h2>Writables</h2>
 
     <ul class="list-unstyled">
-<?php
-  $paths = array(
-    'admin/.htaccess',
-    'admin/.htpasswd',
-    'cache/',
-    'data/',
-    'images/',
-    'includes/config.inc.php',
-    'vqmod/',
-    'vqmod/xml/',
-    'vqmod/vqcache/',
-    'vqmod/checked.cache',
-    'vqmod/mods.cache',
-    '.htaccess',
-  );
-  foreach ($paths as $path) {
-    if (file_exists($path) && is_writable('../' . $path)) {
-      echo '    <li>~/'. $path .' <span class="ok">[OK]</span></li>' . PHP_EOL;
-    } else if (is_writable('../' . pathinfo($path, PATHINFO_DIRNAME))) {
-      echo '    <li>~/'. $path .' <span class="ok">[OK]</span></li>' . PHP_EOL;
-    } else {
-      echo '    <li>~/'. $path .' <span class="error">[Read-only, please make path writable]</span></li>' . PHP_EOL;
-    }
-  }
-?>
+      <?php
+      $paths = array(
+        'admin/.htaccess',
+        'admin/.htpasswd',
+        'cache/',
+        'data/',
+        'images/',
+        'includes/config.inc.php',
+        'vqmod/',
+        'vqmod/xml/',
+        'vqmod/vqcache/',
+        'vqmod/checked.cache',
+        'vqmod/mods.cache',
+        '.htaccess',
+      );
+      foreach ($paths as $path) {
+        if (file_exists($path) && is_writable('../' . $path)) {
+          echo '    <li>~/' . $path . ' <span class="ok">[OK]</span></li>' . PHP_EOL;
+        } else if (is_writable('../' . pathinfo($path, PATHINFO_DIRNAME))) {
+          echo '    <li>~/' . $path . ' <span class="ok">[OK]</span></li>' . PHP_EOL;
+        } else {
+          echo '    <li>~/' . $path . ' <span class="error">[Read-only, please make path writable]</span></li>' . PHP_EOL;
+        }
+      }
+      ?>
     </ul>
   </div>
 </div>
@@ -412,7 +417,7 @@ input[name="development_type"]:checked + div {
 
   <div class="row">
     <div class="form-group col-md-6">
-    <label>Type</label>
+      <label>Type</label>
       <select class="form-control" name="db_type" required="required">
         <option value="mysql">MySQL / MariaDB</option>
       </select>
@@ -491,21 +496,21 @@ input[name="development_type"]:checked + div {
       <label>Country</label>
       <select class="form-control" name="country_code" required="required">
         <option value="">-- Select --</option>
-        <?php foreach ($countries as $code => $name) echo '<option value="'. $code .'">'. $name .'</option>' . PHP_EOL; ?>
+        <?php foreach ($countries as $code => $name) echo '<option value="' . $code . '">' . $name . '</option>' . PHP_EOL; ?>
       </select>
     </div>
 
     <div class="form-group col-md-6">
       <label>Time Zone</label>
       <select class="form-control" name="site_time_zone" required="required">
-<?php
-  foreach (timezone_identifiers_list() as $timezone) {
-    $timezone = explode('/', $timezone);
-    if (!in_array($timezone[0], array('Africa', 'America', 'Antarctica', 'Arctic', 'Asia', 'Atlantic', 'Australia', 'Europe', 'Indian', 'Pacific'))) continue;
-    if (empty($timezone[1])) continue;
-    echo '<option>'. implode('/', $timezone)  .'</option>';
-  }
-?>
+        <?php
+        foreach (timezone_identifiers_list() as $timezone) {
+          $timezone = explode('/', $timezone);
+          if (!in_array($timezone[0], array('Africa', 'America', 'Antarctica', 'Arctic', 'Asia', 'Atlantic', 'Australia', 'Europe', 'Indian', 'Pacific'))) continue;
+          if (empty($timezone[1])) continue;
+          echo '<option>' . implode('/', $timezone)  . '</option>';
+        }
+        ?>
       </select>
     </div>
   </div>
@@ -522,16 +527,6 @@ input[name="development_type"]:checked + div {
           .js
         </div>
         <small class="description">(Uncompressed files)</small>
-      </div>
-    </label>
-    <label>
-      <input name="development_type" value="standard" type="radio" checked="checked" />
-      <div>
-        <div class="type">License Key</div>
-        <div class="title">
-          PLACE FOR LICENSE KEY
-        </div>
-        <small class="description">(place for api license key)</small>
       </div>
     </label>
   </div>
