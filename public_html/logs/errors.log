@@ -1,0 +1,27 @@
+[09-Apr-2021 06:48:42 UTC] Notice: Undefined variable: hash in ~/includes/license.inc.php on line 25
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1617950862883 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/
+
+[09-Apr-2021 06:58:24 Africa/Abidjan] Warning: Unsupported settings key (license_key) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/license.inc.php on line 30 in get()
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+
+[09-Apr-2021 06:58:32 Africa/Abidjan] Warning: Unsupported settings key (license_key) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/license.inc.php on line 30 in get()
+ ← ~/includes/app_header.inc.php on line 17 in require_once()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /xmexpistart/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/admin/login.php?redirect_url=%2Fxmexpistart%2Fpublic_html%2Fadmin%2F
+
