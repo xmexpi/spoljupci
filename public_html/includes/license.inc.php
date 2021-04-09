@@ -2,6 +2,8 @@
 ######################################################################
 ## License File Checker #############################################
 ######################################################################
+// Get config
+  require_once __DIR__ . '/config.inc.php';
 // Virtual Modifications System
   require_once __DIR__ . '/library/lib_vmod.inc.php';
   vmod::init(); // Requires hard initialization as autoloader comes later
@@ -18,3 +20,5 @@
   }
 // Set error handler
   require_once vmod::check(FS_DIR_APP . 'includes/error_handler.inc.php');
+
+  

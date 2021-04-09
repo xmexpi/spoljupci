@@ -14,8 +14,6 @@
   ob_start();
 
 // Get config
-  require_once __DIR__ . '/config.inc.php';
-// Get config
   require_once __DIR__ . '/license.inc.php';
 // Jump-start some library modules
   class_exists('compression');
@@ -26,3 +24,8 @@
   }
 // Run operations before capture
   event::fire('before_capture');
+  
+
+
+
+  echo (LICENSE_KEY);

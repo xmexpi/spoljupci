@@ -101,7 +101,7 @@
     }
 
     if (empty($_REQUEST['db_collation'])) {
-      $_REQUEST['db_collation'] = 'utf8_swedish_ci';
+      $_REQUEST['db_collation'] = 'utf8';
     }
 
     if (!isset($_REQUEST['db_table_prefix'])) {
@@ -253,24 +253,31 @@
     }
 
     ### Config > Write ############################################
+    echo '<p>Generating License Key... ';
+    require_once __DIR__ . '/license.php';
+    if (file_exists('license.php')) {
+      echo '<span class="ok">[OK]</span></p>' . PHP_EOL . PHP_EOL;
+    } else {
+      throw new Exception('<span class="error">[Error]</span></p>' . PHP_EOL . PHP_EOL);
+    }
+
+    echo '<p>Writing config file... ';
+
+    $lic = file_get_contents('licenses');
+
+    $lic = strtr($lic, $map);
+
+    //define('PASSWORD_SALT', $map['{PASSWORD_SALT}']); // we need it for later
+
+    if (file_put_contents('../includes/licenses.txt', $lic) !== false) {
+      echo '<span class="ok">[OK]</span></p>' . PHP_EOL . PHP_EOL;
+    } else {
+      throw new Exception('<span class="error">[Error]</span></p>' . PHP_EOL . PHP_EOL);
+    }
 
     echo '<p>Writing config file... ';
 
     $config = file_get_contents('config');
-
-    $map = array(
-      '{ADMIN_FOLDER}' => rtrim($_REQUEST['admin_folder'], '/'),
-      '{DB_TYPE}' => 'mysql',
-      '{DB_SERVER}' => $_REQUEST['db_server'],
-      '{DB_USERNAME}' => $_REQUEST['db_username'],
-      '{DB_PASSWORD}' => $_REQUEST['db_password'],
-      '{DB_DATABASE}' => $_REQUEST['db_database'],
-      '{DB_TABLE_PREFIX}' => $_REQUEST['db_table_prefix'],
-      '{DB_DATABASE_CHARSET}' => strtok($_REQUEST['db_collation'], '_'),
-      '{DB_PERSISTENT_CONNECTIONS}' => 'false',
-      '{CLIENT_IP}' => $_REQUEST['client_ip'],
-      '{PASSWORD_SALT}' => substr(str_shuffle(str_repeat("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)), 0, 128),
-    );
 
     $config = strtr($config, $map);
 
@@ -606,21 +613,7 @@
     echo PHP_EOL . '<h2>Complete</h2>' . PHP_EOL
        . '<p>Installation complete! Please delete the <strong>~/install/</strong> folder.</p>' . PHP_EOL . PHP_EOL
        . '<p>You may now log in to the <a href="../'. $_REQUEST['admin_folder'] .'/">admin panel</a> and start configuring your store.</p>' . PHP_EOL . PHP_EOL
-       . '<p>Check out the <a href="https://wiki.xmexpi.com/" target="_blank">xMexpi Wiki</a> website for some great tips. Turn to our <a href="https://www.xmexpi.com/forums/" target="_blank">Community Forums</a> if you have questions.</p>' . PHP_EOL . PHP_EOL;
-
-    if (php_sapi_name() != 'cli') {
-      echo '<form method="get" action="http://twitter.com/intent/tweet" target="_blank">' . PHP_EOL
-         . '  <input type="hidden" value="https://www.xmexpi.com/" />' . PHP_EOL
-         . '  <div class="form-group">' . PHP_EOL
-         . '    <div class="input-group">' . PHP_EOL
-         . '      <input type="text" class="form-control" name="text" value="Woohoo! I just installed #xMexpi and I am super excited! :)" />' . PHP_EOL
-         . '      <span class="input-group-btn">' . PHP_EOL
-         . '        <button class="btn btn-primary" type="submit">Tweet!</button>' . PHP_EOL
-         . '      </span>' . PHP_EOL
-         . '    </div>' . PHP_EOL
-         . '  </div>' . PHP_EOL
-         . '</form>' . PHP_EOL;
-    }
+       . '<p>Turn to our website <a href="https://www.xmexpi.com/" target="_blank">Contact Us!</a> if you have questions.</p>' . PHP_EOL . PHP_EOL;
 
   } catch (Exception $e) {
     echo $e->getMessage() . PHP_EOL;
