@@ -1,6 +1,6 @@
 <?php
   define('PLATFORM_NAME', 'xMexpi');
-  define('PLATFORM_VERSION', '1.0.0');
+  define('PLATFORM_VERSION', '1.0.1');
 
   if (!file_exists(__DIR__ . '/config.inc.php')) {
     header('Location: ./install/');
