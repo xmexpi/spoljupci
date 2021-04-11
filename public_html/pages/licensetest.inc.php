@@ -1,4 +1,6 @@
 <?php
+document::$layout = 'default';
+
 $post_data['project'] = 'default';
 $post_data['domain'] = $_SERVER['SERVER_NAME'];
 $post_data['license'] = LICENSE_KEY;
