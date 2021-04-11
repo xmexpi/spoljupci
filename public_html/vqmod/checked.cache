@@ -61,3 +61,4 @@ includes/templates/default.site/views/box_site_footer.inc.php
 pages/error_document.inc.php
 includes/templates/default.site/pages/error_document.inc.php
 includes/functions/func_license.inc.php
+pages/licensetest.inc.php
