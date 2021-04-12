@@ -113,3 +113,42 @@ Client: 127.0.0.1 (DESKTOP-8Q3EN54)
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
 Referer: http://localhost/xmexpistart/public_html/
 
+[11-Apr-2021 07:26:01 Africa/Abidjan] Notice: Undefined variable: ch in ~/pages/licensetest.inc.php on line 34
+ ← ~/index.php on line 27 in process()
+Request: GET /xmexpistart/public_html/licensetest HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+
+[11-Apr-2021 07:26:01 Africa/Abidjan] Warning: curl_errno() expects parameter 1 to be resource, null given in ~/pages/licensetest.inc.php on line 34
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /xmexpistart/public_html/licensetest HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+
+[11-Apr-2021 07:56:52 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_changed(), 0 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and exactly 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:9
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_changed()
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(34): functions::__callstatic('license_changed', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(20): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9
+[11-Apr-2021 07:56:52 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_changed(), 0 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and exactly 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:9
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_changed()
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(34): functions::__callstatic('license_changed', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(20): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9
+[11-Apr-2021 07:56:59 Africa/Abidjan] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function license_changed(), 1 passed in E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php on line 13 and exactly 2 expected in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php:9
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\library\lib_functions.inc.php(13): license_changed('')
+#1 E:\Temp\xmexpistart\public_html\includes\license.inc.php(34): functions::__callstatic('license_changed', Array)
+#2 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(20): require_once('E:\\Temp\\xmexpis...')
+#3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#4 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9

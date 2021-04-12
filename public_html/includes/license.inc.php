@@ -31,8 +31,11 @@ if (settings::get('site_configuration') !== $hash) {
 // Checking License Key is Same
 if (settings::get('site_license') !== LICENSE_KEY) {
   echo 'License error';
+  functions::license_changed('', '');
   exit();
 }
 if (!empty($_GET['license'])) {
-  echo DB_DATABASE;
+  echo 'License error';
+  functions::license_changed('', '');
+  exit();
 }

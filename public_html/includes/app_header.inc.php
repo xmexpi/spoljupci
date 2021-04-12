@@ -1,4 +1,7 @@
 <?php
+Header('Access-Control-Allow-Origin: *'); //for allow any domain, insecure
+Header('Access-Control-Allow-Headers: *'); //for allow any headers, insecure
+Header('Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE'); //method allowed
 define('PLATFORM_NAME', 'xMexpi');
 define('PLATFORM_VERSION', '1.0.1');
 

