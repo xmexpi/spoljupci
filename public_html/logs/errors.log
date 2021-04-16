@@ -152,3 +152,797 @@ Stack trace:
 #3 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
 #4 {main}
   thrown in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9
+[16-Apr-2021 10:07:17 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ')' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:07:53 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING) in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:08:01 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING) in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:08:02 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING) in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:08:24 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:08:52 Africa/Abidjan] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:08:57 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:09:12 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:09:41 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:09:43 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:10:07 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ')' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 6
+[16-Apr-2021 10:10:27 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ')' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 6
+[16-Apr-2021 10:10:36 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:02 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:12 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:14 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:23 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:24 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:11:50 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license=XP-edi482bie6'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:12:09 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:12:43 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:12:58 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:19 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:39 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:40 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:54 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:13:56 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:15 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:18 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:19 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:19 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:14:49 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ',', expecting end of file in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 12
+[16-Apr-2021 10:14:53 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:00 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:22 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:23 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:26 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:28 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:37 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:40 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:43 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:15:59 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:01 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:02 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:02 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:02 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:03 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:03 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:03 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:03 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:04 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:14 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:58 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:16:59 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:17:12 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'license_update' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:17:45 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:17:51 Africa/Abidjan] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:18:10 Africa/Abidjan] PHP Parse error:  syntax error, unexpected '=' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:18:26 Africa/Abidjan] PHP Parse error:  syntax error, unexpected ''.json?license='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 5
+[16-Apr-2021 10:18:31 Africa/Abidjan] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 6
+[16-Apr-2021 10:19:23 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'CHECKLINK' (T_STRING), expecting ')' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 6
+[16-Apr-2021 10:19:33 Africa/Abidjan] Warning: file_get_contents(xmexpi.com/license.json?license=XP-edi482bie6): failed to open stream: No error in ~/includes/functions/func_license.inc.php on line 6
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:19:33 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:19:59 Africa/Abidjan] Warning: file_get_contents(https://xmexpi.com/license.json?license=XP-edi482bie6): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in ~/includes/functions/func_license.inc.php on line 6
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:19:59 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:09 Africa/Abidjan] Warning: file_get_contents(http://xmexpi.com/license.json?license=XP-edi482bie6): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in ~/includes/functions/func_license.inc.php on line 6
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:09 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:35 Africa/Abidjan] Warning: file_get_contents(xmexpi.com/ajax/license.json?license=XP-edi482bie6): failed to open stream: No error in ~/includes/functions/func_license.inc.php on line 6
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:35 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:55 Africa/Abidjan] Notice: Undefined variable: testdata in ~/includes/functions/func_license.inc.php on line 5
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:55 Africa/Abidjan] Warning: file_get_contents(): Filename cannot be empty in ~/includes/functions/func_license.inc.php on line 5
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:55 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 8
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:57 Africa/Abidjan] Notice: Undefined variable: testdata in ~/includes/functions/func_license.inc.php on line 5
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:57 Africa/Abidjan] Warning: file_get_contents(): Filename cannot be empty in ~/includes/functions/func_license.inc.php on line 5
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:20:57 Africa/Abidjan] Warning: Invalid argument supplied for foreach() in ~/includes/functions/func_license.inc.php on line 8
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:22:59 Africa/Abidjan] Warning: Use of undefined constant condition - assumed 'condition' (this will throw an Error in a future version of PHP) in ~/includes/functions/func_license.inc.php on line 8
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:23:19 Africa/Abidjan] Warning: Use of undefined constant condition - assumed 'condition' (this will throw an Error in a future version of PHP) in ~/includes/functions/func_license.inc.php on line 8
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:23:33 Africa/Abidjan] Warning: Use of undefined constant condition - assumed 'condition' (this will throw an Error in a future version of PHP) in ~/includes/functions/func_license.inc.php on line 8
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:25:34 Africa/Abidjan] Notice: Undefined variable: query in ~/includes/functions/func_license.inc.php on line 7
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:25:34 Africa/Abidjan] Warning: mysqli::query(): Empty query in ~/includes/library/lib_database.inc.php on line 144
+ ← ~/includes/functions/func_license.inc.php on line 7 in query()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:25:34 Africa/Abidjan] Fatal error: 0 - 
+
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/functions/func_license.inc.php on line 7 in query()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in license_checking()
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:25:47 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 9
+[16-Apr-2021 10:31:34 Africa/Abidjan] PHP Parse error:  syntax error, unexpected '}', expecting ';' in E:\Temp\xmexpistart\public_html\includes\functions\func_license.inc.php on line 10
+[16-Apr-2021 10:31:52 Africa/Abidjan] Notice: Undefined variable: status in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:31:53 Africa/Abidjan] Notice: Undefined variable: status in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:31:53 Africa/Abidjan] Notice: Undefined variable: status in ~/includes/functions/func_license.inc.php on line 9
+ ← ~/includes/license.inc.php on line 39 in __callstatic()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:40:24 Africa/Abidjan] Notice: Undefined index: license in ~/includes/license.inc.php on line 37
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1618569563882 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/?license=XP-edi482bie6
+
+[16-Apr-2021 10:41:23 Africa/Abidjan] Notice: Undefined index: license in ~/includes/license.inc.php on line 37
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1618569563883 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/?license=XP-edi482bie6
+
+[16-Apr-2021 10:41:38 Africa/Abidjan] PHP Fatal error:  Uncaught Error: Call to undefined function file_delete() in E:\Temp\xmexpistart\public_html\includes\license.inc.php:48
+Stack trace:
+#0 E:\Temp\xmexpistart\public_html\includes\app_header.inc.php(20): require_once()
+#1 E:\Temp\xmexpistart\public_html\index.php(3): require_once('E:\\Temp\\xmexpis...')
+#2 {main}
+  thrown in E:\Temp\xmexpistart\public_html\includes\license.inc.php on line 48
+[16-Apr-2021 10:46:13 Africa/Abidjan] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key = 'site_configuration' 
+      limit 1' at line 3
+update `xmexpi1`.`xp_settings` set
+value = 'value+1'
+where key = 'site_configuration'
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/license.inc.php on line 44 in query()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:46:41 Africa/Abidjan] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key = 'site_configuration' 
+      limit 1' at line 3
+update `xmexpi1`.`xp_settings` set
+value = '1'
+where key = 'site_configuration'
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/license.inc.php on line 44 in query()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:46:47 Africa/Abidjan] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where key = 'site_configuration' 
+      limit 1' at line 3
+update `xmexpi1`.`xp_settings` set
+value = '1',
+where key = 'site_configuration'
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/license.inc.php on line 44 in query()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:47:33 Africa/Abidjan] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key = site_configuration 
+      limit 1' at line 4
+update `xmexpi1`.`xp_settings`
+set value = '1'
+where 
+key = site_configuration
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/license.inc.php on line 44 in query()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:48:30 Africa/Abidjan] Fatal error: 1064 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key = site_configuration 
+      limit 1' at line 4
+update `xmexpi1`.`xp_settings`
+set value = 'ssadasfds1'
+where 
+key = site_configuration
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/license.inc.php on line 45 in query()
+ ← ~/includes/app_header.inc.php on line 20 in require_once()
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/?license=XP-edi482bie6 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:55:58 UTC] Notice: Undefined index: license in ~/includes/license.inc.php on line 27
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1618570497277 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/?license=XP-edi482bie6
+
+[16-Apr-2021 10:56:37 UTC] Notice: Undefined index: license in ~/includes/license.inc.php on line 27
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:56:45 UTC] Notice: Undefined index: license in ~/includes/license.inc.php on line 27
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+
+[16-Apr-2021 10:57:59 UTC] Notice: Undefined index: license in ~/includes/license.inc.php on line 27
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1618570618992 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/?license=XP-edi482bie6
+
+[16-Apr-2021 10:58:59 UTC] Notice: Undefined index: license in ~/includes/license.inc.php on line 27
+ ← ~/index.php on line 3 in require_once()
+Request: GET /xmexpistart/public_html/ajax/cart.json?_=1618570618993 HTTP/1.1
+Host: localhost
+Client: 127.0.0.1 (DESKTOP-8Q3EN54)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+Referer: http://localhost/xmexpistart/public_html/?license=XP-edi482bie6
+

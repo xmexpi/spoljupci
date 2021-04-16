@@ -1,9 +1,30 @@
 <?php
-
-function license_check($name, $license_key, $parameters = '')
+define('CHECKLINK', 'http://xmexpi.com/ajax/license');
+function license_checking($name, $license_key)
 {
-    echo LICENSE_KEY;
-    echo DB_DATABASE;
+ $json = file_get_contents(CHECKLINK.'.json?license='.$license_key);
+ $someArray = json_decode($json, true);
+ foreach ($someArray as $key => $value) {
+     if ($value["license_key"] === LICENSE_KEY & $value["domain"] === $_SERVER['SERVER_NAME'] & $value["ip_server"] === $_SERVER['SERVER_ADDR']) {
+        return 1;
+     } else {
+        return 0;
+     }
+     
+  //   echo $value["domain"] . ", " . $value["license_key"] . ", " . $value["ip_server"] . "<br>";
+}
+ //$products_query = database::query($query);
+
+   // return $someArray;
+//  if (condition) {
+//      # code...
+//  } else {
+//      # code...
+//  }
+ 
+//  foreach ($someArray as $key => $value) {
+//     echo $value["domain"] . ", " . $value["license_key"] . ", " . $value["ip_server"] . "<br>";
+//  }
 }
 
 function license_changed($name, $license_key)
@@ -26,7 +47,7 @@ function license_changed($name, $license_key)
     //create the final string to be posted using implode()
     $post_string = implode('&', $post_items);
     //create cURL connection
-    $curl_connection = curl_init('https://xmexpi.com/license');
+    $curl_connection = curl_init('https://'. CHECKLINK .'');
     //set options
     curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 30);
     curl_setopt($curl_connection, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)");
