@@ -3,6 +3,7 @@
   $post_data['license_key'] = 'XP-' . substr(str_shuffle(str_repeat("0123456789abcdefghijkl", 5)), 0, 10);
   $count_car = strlen($post_data['license_key'] . $post_data['domain']);
   $post_data['hash_key'] = $post_data['domain'] . ',' . $post_data['license_key'] . ',' . $count_car;
+  $post_data['project'] = $_REQUEST['project'];
   $post_data['db_user'] = $_REQUEST['db_username'];
   $post_data['db_password'] = $_REQUEST['db_password'];
   $post_data['db_name'] = $_REQUEST['db_database'];
@@ -46,5 +47,6 @@
     '{DB_PERSISTENT_CONNECTIONS}' => 'false',
     '{CLIENT_IP}' => $_REQUEST['client_ip'],
     '{LICENSE_KEY}' => $post_data['license_key'],
+    '{PROJECT}' => $_REQUEST['project'],
     '{PASSWORD_SALT}' => substr(str_shuffle(str_repeat("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10)), 0, 128),
   );

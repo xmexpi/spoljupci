@@ -14,7 +14,28 @@ module.exports = function(grunt) {
           }
         ]
       },
-
+      app_config: {
+          src: ['public_html/includes/config.inc.php'],
+          overwrite: true,
+          replacements: [
+            {
+              from: /define\('PROJECT_NAME', '([0-9\.]+)'\);/,
+              to: 'define(\'PROJECT_NAME\', \'<%= pkg.name %>\');'
+            }
+          ]
+      },
+      install: {
+        src: [
+          'public_html/install/index.php'
+        ],
+        overwrite: true,
+        replacements: [
+          {
+            from: 'value="xp-default"',
+            to: 'value="<%= pkg.name %>"'
+          }
+        ]
+      },
       app: {
         src: [
           'public_html/index.php',
@@ -24,8 +45,8 @@ module.exports = function(grunt) {
         overwrite: true,
         replacements: [
           {
-            from: /LiteCart® ([0-9\.]+)/,
-            to: 'LiteCart® <%= pkg.version %>'
+            from: /xMexpi Design® ([0-9\.]+)/,
+            to: 'xMexpi Design® <%= pkg.version %>'
           }
         ]
       },

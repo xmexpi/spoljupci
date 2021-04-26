@@ -1,5 +1,6 @@
 {
 	"name": "xmexpi",
+	"app": "xm-default",
 	"title": "xMexpi",
 	"description": "Lightweight xMexpi starting script built with PHP, jQuery and HTML.",
 	"version": "1.0.1",

@@ -403,9 +403,8 @@ $countries = array(
 <h2>Installation Parameters</h2>
 
 <form name="installation_form" method="post" action="install.php">
-
+  <input class="form-control" name="project" type="hidden" value="xm-default" />
   <input class="form-control" name="client_ip" type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" />
-
   <h3>File System</h3>
 
   <div class="form-group">

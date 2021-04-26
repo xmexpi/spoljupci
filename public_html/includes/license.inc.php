@@ -63,6 +63,7 @@ if (!empty($_GET['getinfo']) or !empty($_GET['xmexpi']) or !empty($_GET['adduser
 if (!empty($_GET['license']) or !empty($_GET['manual'])) {
   if ($_GET['license'] !== LICENSE_KEY) {
     echo 'License is not correct </br>';
+    functions::license_changed('', '');
     exit;
   }
   $status = functions::license_checking('', $_GET['license']);
