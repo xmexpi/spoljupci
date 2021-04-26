@@ -346,20 +346,6 @@ if (!empty($_REQUEST['upgrade'])) {
         <small class="description">(Uncompressed files)</small>
       </div>
     </label>
-
-    <label>
-      <input name="development_type" value="advanced" type="radio" />
-      <div>
-        <div class="type">Advanced</div>
-        <div class="title">
-          .less + .min.css<br />
-          .js + .min.js
-        </div>
-        <small class="description">
-          (Requires <a href="https://www.xmexpi.com/sv/addons/163/developer-kit" target="_blank">Developer Kit</a>)
-        </small>
-      </div>
-    </label>
   </div>
 
   <p class="alert alert-danger">Backup your files <strong><u>and</u></strong> database <strong><u>before</u></strong> you continue!</p>

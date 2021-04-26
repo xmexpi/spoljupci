@@ -333,6 +333,7 @@ $countries = array(
             <ul>
               <li>apcu <?php echo extension_loaded('apcu') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'; ?></li>
               <li>dom <?php echo extension_loaded('dom') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'; ?></li>
+              <li>ioncube <?php echo extension_loaded('ionCube Loader') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'; ?></li>
               <li>gd / imagick <?php echo extension_loaded('imagick') ? '<span class="ok">[OK]</span>' : (extension_loaded('gd') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'); ?></li>
               <li>intl <?php echo extension_loaded('intl') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'; ?></li>
               <li>json <?php echo extension_loaded('json') ? '<span class="ok">[OK]</span>' : '<span class="error">[Missing]</span>'; ?></li>
