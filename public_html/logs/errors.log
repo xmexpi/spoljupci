@@ -1,0 +1,417 @@
+[08-Sep-2022 17:27:10 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/install/install.php
+
+[08-Sep-2022 17:27:10 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/install/install.php
+
+[08-Sep-2022 17:27:12 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:27:12 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:27:13 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:27:13 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:27:14 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:27:14 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:27:14 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Call to undefined method database::create_variable() in E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_slide.inc.php:28
+Stack trace:
+#0 E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_slide.inc.php(14): ent_slide->reset()
+#1 E:\Temp\radioproject\radioxp\public_html\admin\slides.app\edit_slide.inc.php(6): ent_slide->__construct()
+#2 E:\Temp\radioproject\radioxp\public_html\admin\index.php(137): include('E:\\Temp\\radiopr...')
+#3 {main}
+  thrown in E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_slide.inc.php on line 28
+[08-Sep-2022 17:30:06 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:30:06 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:10 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:10 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:11 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:11 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:12 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/install/install.php
+
+[08-Sep-2022 17:31:12 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/install/install.php
+
+[08-Sep-2022 17:31:14 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:14 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:14 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:14 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:15 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:36 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:36 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:39 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:39 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/
+
+[08-Sep-2022 17:31:41 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:41 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides
+
+[08-Sep-2022 17:31:53 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: POST /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:31:53 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: POST /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:31:53 America/Costa_Rica] Warning: Unsupported settings key (store_language_code) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/entities/ent_slide.inc.php on line 174 in get()
+ ← ~/admin/slides.app/edit_slide.inc.php on line 47 in save_image()
+ ← ~/admin/index.php on line 137 in include()
+Request: POST /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:31:53 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:31:53 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:31:56 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1&slide_id=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1
+
+[08-Sep-2022 17:31:56 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1&slide_id=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1
+
+[08-Sep-2022 17:32:04 America/Costa_Rica] Warning: mkdir(): No such file or directory in ~/includes/library/lib_cache.inc.php on line 259
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+
+[08-Sep-2022 17:32:04 America/Costa_Rica] Warning: Could not create cache subfolder in ~/includes/library/lib_cache.inc.php on line 260
+ ← ~/includes/functions/func_admin.inc.php on line 28 in set()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in admin_get_apps()
+ ← ~/admin/index.php on line 17 in __callstatic()
+Request: GET /radioproject/radioxp/public_html/admin/?app=slides&doc=slides&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=slides&doc=edit_slide&page=1
+

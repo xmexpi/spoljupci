@@ -212,7 +212,7 @@ CREATE TABLE `xp_settings_groups` (
   UNIQUE KEY `key` (`key`)
 ) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
 -- --------------------------------------------------------
-CREATE TABLE `lc_slides` (
+CREATE TABLE `xp_slides` (
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `status` TINYINT(1) NOT NULL DEFAULT '0',
   `languages` VARCHAR(32) NOT NULL DEFAULT '',
@@ -224,6 +224,18 @@ CREATE TABLE `lc_slides` (
   `date_updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `date_created` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
+-- --------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `xp_slides_info` (
+  `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `slide_id` INT(11) UNSIGNED NOT NULL DEFAULT '0',
+  `language_code` VARCHAR(2) NOT NULL DEFAULT '',
+  `caption` TEXT NOT NULL DEFAULT '',
+  `link` VARCHAR(256) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `slide_info` (`slide_id`,`language_code`),
+  KEY `slide_id` (`slide_id`),
+  KEY `language_code` (`language_code`)
 ) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
 -- --------------------------------------------------------
 CREATE TABLE `xp_translations` (
