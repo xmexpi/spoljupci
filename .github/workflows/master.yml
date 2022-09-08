@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - dev
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2.3.2
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: 136.243.155.165
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: /
+          local-dir: ./public_html/
+          exclude: "[.git*, .git*/**, **/.git*/**, node_modules, node_modules/**, config.php, database.php, assets/**, backup/**, vendor/**, files/**, images/**, package.json, config.inc.php, package-lock.json]"

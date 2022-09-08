@@ -1,0 +1,43 @@
+{
+	"name": "xmexpi",
+	"app": "xm-default",
+	"title": "xMexpi",
+	"description": "Lightweight xMexpi starting script built with PHP, jQuery and HTML.",
+	"version": "1.0.1",
+	"author": {
+		"name": "xMexpi Design",
+		"url": "https://www.xmexpi.com/"
+	},
+	"license": "CC-BY-ND-4.0",
+	"homepage": "https://www.xmexpi.com/",
+	"download": "https://www.xmexpi.com/download",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/xmexpi/xmexpi.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xmexpi/xmexpi/issues"
+	},
+	"devDependencies": {
+		"grunt": "^1.5.3",
+		"grunt-cli": "^1.4.3",
+		"grunt-contrib-less": "^2.1.0",
+		"grunt-contrib-uglify": "^4.0.1",
+		"grunt-contrib-watch": "^1.0.0",
+		"grunt-phplint": "^0.1.0",
+		"grunt-sass": "^3.1.0",
+		"grunt-text-replace": "^0.4.0",
+		"less-plugin-clean-css": "^1.5.1",
+		"node-sass": "^4.14.1",
+		"phplint": "^2.0.5"
+	},
+	"scripts": {
+		"build": "grunt",
+		"hash": "php .git-hooks/pre-commit.d/calculate_checksums.php",
+		"less": "grunt less",
+		"phplint": "grunt phplint",
+		"test": "grunt test",
+		"uglify": "grunt replace",
+		"watch": "grunt watch"
+	}
+}
