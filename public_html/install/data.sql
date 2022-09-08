@@ -275,6 +275,10 @@ INSERT INTO `xp_settings_groups` (`key`, `name`, `description`, `priority`) VALU
 INSERT INTO `xp_settings` (`setting_group_key`, `type`, `title`, `description`, `key`, `value`, `function`, `priority`, `date_updated`, `date_created`) VALUES
 ('', 'global', 'Platform Database Version', 'The platform version of the database', 'platform_database_version', '', '', 0, NOW(), NOW()),
 ('site_info', 'global', 'Site Name', 'The name of your site.', 'site_name', '{SITE_NAME}', 'text()', 10, NOW(), NOW()),
+('site_info', 'global', 'Radio Stream Link', 'Radio stream link.', 'site_stream_link', 'http://5.9.25.50:9320', 'text()', 10, NOW(), NOW()),
+('site_info', 'global', 'Radio Facebook Link', 'Facebook Link.', 'site_facebook', 'facebook link', 'text()', 10, NOW(), NOW()),
+('site_info', 'global', 'Radio Youtube Link', 'Radio Youtube Link.', 'site_youtube', 'youtube', 'text()', 10, NOW(), NOW()),
+('site_info', 'global', 'Radio Instagram Link', 'Instagram Linki.', 'site_instagram', 'instagram', 'text()', 10, NOW(), NOW()),
 ('site_info', 'global', 'Site Email', 'The site\'s email address.', 'site_email', '{SITE_EMAIL}', 'text()', 11, NOW(), NOW()),
 ('site_info', 'global', 'Site License Key', 'The site\'s license key.', 'site_license', '{LICENSE_KEY}', 'text()', 12, NOW(), NOW()),
 ('site_info', 'local', 'Site Postal Address', 'The site\'s postal address.', 'site_postal_address', 'My Site\r\nStreet\r\nPostcode City\r\nCountry', 'bigtext()', 13, NOW(), NOW()),

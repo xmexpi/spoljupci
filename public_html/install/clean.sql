@@ -18,6 +18,8 @@ DROP TABLE IF EXISTS `xp_pages_info`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_settings`;
 -- --------------------------------------------------------
+DROP TABLE IF EXISTS `xp_slides`;
+-- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_settings_groups`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_translations`;
