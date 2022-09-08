@@ -75,26 +75,26 @@ module.exports = function(grunt) {
           relativeUrls: true
         },
         files: {
-          'public_html/includes/templates/live.catalog/css/app.css'       : 'public_html/includes/templates/live.catalog/less/app.less',
-          'public_html/includes/templates/live.catalog/css/checkout.css'  : 'public_html/includes/templates/live.catalog/less/checkout.less',
-          'public_html/includes/templates/live.catalog/css/framework.css' : 'public_html/includes/templates/live.catalog/less/framework.less',
-          'public_html/includes/templates/live.catalog/css/printable.css' : 'public_html/includes/templates/live.catalog/less/printable.less',
+          'public_html/includes/templates/default.site/css/app.css'       : 'public_html/includes/templates/default.site/less/app.less',
+          'public_html/includes/templates/default.site/css/checkout.css'  : 'public_html/includes/templates/default.site/less/checkout.less',
+          'public_html/includes/templates/default.site/css/framework.css' : 'public_html/includes/templates/default.site/less/framework.less',
+          'public_html/includes/templates/default.site/css/printable.css' : 'public_html/includes/templates/default.site/less/printable.less',
         }
       },
       litecart_catalog_template_minified: {
         options: {
           compress: true,
           sourceMap: true,
-          sourceMapBasepath: 'public_html/includes/templates/live.catalog/less/',
+          sourceMapBasepath: 'public_html/includes/templates/default.site/less/',
           sourceMapRootpath: '../less/',
           sourceMapURL: function(path) { return path.replace(/.*\//, '') + '.map'; },
           relativeUrls: true
         },
         files: {
-          'public_html/includes/templates/live.catalog/css/app.min.css'       : 'public_html/includes/templates/live.catalog/less/app.less',
-          'public_html/includes/templates/live.catalog/css/checkout.min.css'  : 'public_html/includes/templates/live.catalog/less/checkout.less',
-          'public_html/includes/templates/live.catalog/css/framework.min.css' : 'public_html/includes/templates/live.catalog/less/framework.less',
-          'public_html/includes/templates/live.catalog/css/printable.min.css' : 'public_html/includes/templates/live.catalog/less/printable.less',
+          'public_html/includes/templates/default.site/css/app.min.css'       : 'public_html/includes/templates/default.site/less/app.less',
+          'public_html/includes/templates/default.site/css/checkout.min.css'  : 'public_html/includes/templates/default.site/less/checkout.less',
+          'public_html/includes/templates/default.site/css/framework.min.css' : 'public_html/includes/templates/default.site/less/framework.less',
+          'public_html/includes/templates/default.site/css/printable.min.css' : 'public_html/includes/templates/default.site/less/printable.less',
         }
       },
       featherlight_minified: {

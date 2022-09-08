@@ -19,9 +19,9 @@
 		"url": "https://github.com/xmexpi/xmexpi/issues"
 	},
 	"devDependencies": {
-		"grunt": "^1.3.0",
-		"grunt-cli": "^1.3.2",
-		"grunt-contrib-less": "^2.0.0",
+		"grunt": "^1.5.3",
+		"grunt-cli": "^1.4.3",
+		"grunt-contrib-less": "^2.1.0",
 		"grunt-contrib-uglify": "^4.0.1",
 		"grunt-contrib-watch": "^1.0.0",
 		"grunt-phplint": "^0.1.0",
@@ -29,9 +29,15 @@
 		"grunt-text-replace": "^0.4.0",
 		"less-plugin-clean-css": "^1.5.1",
 		"node-sass": "^4.14.1",
-		"phplint": "^2.0.3"
+		"phplint": "^2.0.5"
 	},
 	"scripts": {
-		"build": "grunt"
+		"build": "grunt",
+		"hash": "php .git-hooks/pre-commit.d/calculate_checksums.php",
+		"less": "grunt less",
+		"phplint": "grunt phplint",
+		"test": "grunt test",
+		"uglify": "grunt replace",
+		"watch": "grunt watch"
 	}
 }
