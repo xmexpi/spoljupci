@@ -1,0 +1,92 @@
+<div class="menu_wrapper">
+    <div class="navbar navbar_">
+        <div class="navbar-inner navbar-inner_">
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+                <div class="over1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                <div class="txt1"><?php echo language::translate('title_site_menu', 'Meni'); ?></div>
+            </a>
+            <div class="nav-collapse nav-collapse_ collapse">
+                <ul class="nav sf-menu clearfix">
+                    <li class="active"><a href="/">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1"><?php echo language::translate('title_site_meni_home', 'Naslovna'); ?></div>
+                            <div class="txt2"><?php echo language::translate('title_site_meni_home_s', 'Početna Stranica'); ?></div>
+                        </a></li>
+                    <li><a href="about">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1"><?php echo language::translate('title_site_meni_about', 'O Nama'); ?></div>
+                            <div class="txt2"><?php echo language::translate('title_site_meni_about_s', 'naša priča'); ?></div>
+                        </a></li>
+                    <li><a href="index-2.html">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1">Shows</div>
+                            <div class="txt2">programs</div>
+                        </a></li>
+                    <li class="sub-menu sub-menu-1"><a href="index-3.html">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1">Podcasts</div>
+                            <div class="txt2">listen now</div>
+                        </a>
+                        <ul>
+                            <li><a href="index-3.html">Lorem ipsum</a></li>
+                            <li><a href="index-3.html">Dolor sit</a></li>
+                            <li><a href="index-3.html">Sit amet</a></li>
+                            <li><a href="404.html">404 page not found</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index-4.html">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1">Gallery</div>
+                            <div class="txt2">photos</div>
+                        </a></li>
+                    <li><a href="index-5.html">
+                            <div class="over1"></div>
+                            <div class="over2"></div>
+                            <div class="txt1">Contacts</div>
+                            <div class="txt2">mail us</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="social_wrapper">
+    <ul class="social clearfix">
+        <li><a href="#"><img src="{snippet:template_path}images/social_ic1.png"><em></em></a></li>
+        <li><a href="#"><img src="{snippet:template_path}images/social_ic2.png"><em></em></a></li>
+        <li><a href="#"><img src="{snippet:template_path}images/social_ic3.png"><em></em></a></li>
+        <li><a href="#"><img src="{snippet:template_path}images/social_ic4.png"><em></em></a></li>
+        <li><a href="#"><img src="{snippet:template_path}images/social_ic5.png"><em></em></a></li>
+    </ul>
+</div>
+
+<div class="top1 clearfix">
+    <div class="menu_top clearfix">
+        <ul id="menu_top" class="clearfix">
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+    <div class="top2">
+        <a href="#" class="top_banner1">
+            <div class="txt1">Listen Live</div>
+            <div class="txt2">click here</div><img src="images/top_banner1_img.png" alt="" class="img">
+        </a>
+        <a href="#" class="top_banner2">
+            <div class="txt1">now on air</div>
+            <div class="txt2">dj brabus</div><img src="images/top_banner2_img.png" alt="" class="img">
+        </a>
+    </div>
+
+</div>

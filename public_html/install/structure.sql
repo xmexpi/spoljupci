@@ -238,6 +238,20 @@ CREATE TABLE IF NOT EXISTS `xp_slides_info` (
   KEY `language_code` (`language_code`)
 ) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
 -- --------------------------------------------------------
+CREATE TABLE `xp_team` (
+  `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `status` TINYINT(1) NOT NULL DEFAULT '0',
+  `name` VARCHAR(128) NOT NULL DEFAULT '',
+  `image` VARCHAR(256) NOT NULL DEFAULT '',
+  `caption` TEXT NOT NULL DEFAULT '',
+  `priority` INT(11) NOT NULL DEFAULT '0',
+  `date_valid_from` TIMESTAMP NULL DEFAULT NULL,
+  `date_valid_to` TIMESTAMP NULL DEFAULT NULL,
+  `date_updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date_created` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
+-- --------------------------------------------------------
 CREATE TABLE `xp_translations` (
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `code` VARCHAR(250) NOT NULL DEFAULT '',
