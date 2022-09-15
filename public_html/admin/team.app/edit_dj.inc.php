@@ -76,10 +76,8 @@ if (isset($_POST['delete'])) {
   <div class="panel-heading">
     <?php echo $app_icon; ?> <?php echo !empty($team->data['id']) ? language::translate('title_edit_dj', 'Izmjeni DJ') : language::translate('title_add_dj', 'Dodaj Novog DJ'); ?>
   </div>
-
   <div class="panel-body">
     <?php echo functions::form_draw_form_begin('team_form', 'post', false, true, 'style="max-width: 640px;"'); ?>
-
     <div class="row">
       <div class="form-group col-md-6">
         <label><?php echo language::translate('title_status', 'Status'); ?></label>

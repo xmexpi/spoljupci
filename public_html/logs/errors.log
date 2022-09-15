@@ -83,3 +83,514 @@ Client: ::1 (XMEXPI)
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1
 
+[09-Sep-2022 00:56:17 Africa/Abidjan] Warning: include(E:/Temp/radioproject/radioxp/public_html/includes/boxes/box_site_team.inc.php): failed to open stream: No such file or directory in ~/includes/templates/tema1.site/pages/index.inc.php on line 17
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 00:56:17 Africa/Abidjan] Warning: include(E:/Temp/radioproject/radioxp/public_html/includes/boxes/box_site_team.inc.php): failed to open stream: No such file or directory in ~/includes/templates/tema1.site/pages/index.inc.php on line 17
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 00:56:17 Africa/Abidjan] Warning: include(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/boxes/box_site_team.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/templates/tema1.site/pages/index.inc.php on line 17
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 00:56:27 Africa/Abidjan] Fatal error: 1054 - Unknown column 's.priority' in 'order clause'
+select * from xp_team order by s.priority, s.name;
+ in ~/includes/library/lib_database.inc.php on line 260
+ ← ~/includes/library/lib_database.inc.php on line 145 in _error()
+ ← ~/includes/boxes/box_team.inc.php on line 7 in query()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 00:56:45 Africa/Abidjan] Notice: Undefined index: link in ~/includes/boxes/box_team.inc.php on line 20
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:00:17 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:00:17 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:00:17 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:33 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:33 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:33 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:40 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:01:41 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:02:28 Africa/Abidjan] Warning: include_once(E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php): failed to open stream: No such file or directory in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:02:28 Africa/Abidjan] Warning: include_once(): Failed opening 'E:/Temp/radioproject/radioxp/public_html/includes/functions/func_escape.inc.php' for inclusion (include_path='.;C:\php\pear') in ~/includes/library/lib_functions.inc.php on line 10
+ ← ~/includes/templates/tema1.site/views/box_site_team.inc.php on line 11 in __callstatic()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:02:28 Africa/Abidjan] Warning: call_user_func_array() expects parameter 1 to be a valid callback, function 'escape_html' not found or invalid function name in ~/includes/library/lib_functions.inc.php on line 13
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/includes/boxes/box_team.inc.php on line 25 in stitch()
+ ← ~/includes/templates/tema1.site/pages/index.inc.php on line 17 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 23 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 28 in {closure}()
+ ← ~/pages/index.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 122 in include()
+ ← ~/index.php on line 27 in process()
+Request: GET /radioproject/radioxp/public_html/ HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=appearance&doc=template_settings
+
+[09-Sep-2022 01:08:08 Africa/Abidjan] Warning: Unsupported settings key (store_language_code) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/entities/ent_team.inc.php on line 118 in get()
+ ← ~/admin/team.app/edit_dj.inc.php on line 47 in save_image()
+ ← ~/admin/index.php on line 137 in include()
+Request: POST /radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1
+
+[09-Sep-2022 01:09:12 Africa/Abidjan] Warning: Unsupported settings key (store_language_code) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/entities/ent_team.inc.php on line 118 in get()
+ ← ~/admin/team.app/edit_dj.inc.php on line 47 in save_image()
+ ← ~/admin/index.php on line 137 in include()
+Request: POST /radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1
+
+[09-Sep-2022 01:09:21 Africa/Abidjan] Warning: Unsupported settings key (store_language_code) in ~/includes/library/lib_settings.inc.php on line 39
+ ← ~/includes/entities/ent_team.inc.php on line 118 in get()
+ ← ~/admin/team.app/edit_dj.inc.php on line 47 in save_image()
+ ← ~/admin/index.php on line 137 in include()
+Request: POST /radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1 HTTP/1.1
+Host: localhost
+Client: ::1 (XMEXPI)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Referer: http://localhost/radioproject/radioxp/public_html/admin/?app=team&doc=edit_dj&page=1
+
+[15-Sep-2022 03:08:36 Africa/Abidjan] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreate() in E:\Temp\radioproject\radioxp\public_html\includes\functions\func_captcha.inc.php:36
+Stack trace:
+#0 E:\Temp\radioproject\radioxp\public_html\includes\library\lib_functions.inc.php(13): captcha_generate(100, 40, 4, 'create_account', 'numbers', 'align="absbotto...')
+#1 E:\Temp\radioproject\radioxp\public_html\includes\functions\func_form.inc.php(90): functions::__callstatic('captcha_generat...', Array)
+#2 E:\Temp\radioproject\radioxp\public_html\includes\library\lib_functions.inc.php(13): form_draw_captcha_field('captcha', 'create_account', 'required="requi...')
+#3 E:\Temp\radioproject\radioxp\public_html\includes\templates\tema1.site\pages\create_account.inc.php(127): functions::__callstatic('form_draw_captc...', Array)
+#4 E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_view.inc.php(23): include('E:\\Temp\\radiopr...')
+#5 E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_view.inc.php(28): ent_view->{closure}('E:/Temp/radiop in E:\Temp\radioproject\radioxp\public_html\includes\functions\func_captcha.inc.php on line 36
+[15-Sep-2022 03:08:41 Africa/Abidjan] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreate() in E:\Temp\radioproject\radioxp\public_html\includes\functions\func_captcha.inc.php:36
+Stack trace:
+#0 E:\Temp\radioproject\radioxp\public_html\includes\library\lib_functions.inc.php(13): captcha_generate(100, 40, 4, 'create_account', 'numbers', 'align="absbotto...')
+#1 E:\Temp\radioproject\radioxp\public_html\includes\functions\func_form.inc.php(90): functions::__callstatic('captcha_generat...', Array)
+#2 E:\Temp\radioproject\radioxp\public_html\includes\library\lib_functions.inc.php(13): form_draw_captcha_field('captcha', 'create_account', 'required="requi...')
+#3 E:\Temp\radioproject\radioxp\public_html\includes\templates\tema1.site\pages\create_account.inc.php(127): functions::__callstatic('form_draw_captc...', Array)
+#4 E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_view.inc.php(23): include('E:\\Temp\\radiopr...')
+#5 E:\Temp\radioproject\radioxp\public_html\includes\entities\ent_view.inc.php(28): ent_view->{closure}('E:/Temp/radiop in E:\Temp\radioproject\radioxp\public_html\includes\functions\func_captcha.inc.php on line 36
