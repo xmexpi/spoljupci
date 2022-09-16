@@ -42,17 +42,17 @@
                             <li><a href="404.html">404 page not found</a></li>
                         </ul> -->
                     </li>
-                    <li><a href="galerija">
+                    <li><a href="gallery">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_galerija', 'Galerija'); ?></div>
                             <div class="txt2"><?php echo language::translate('title_site_meni_galerija_s', 'Slike radija'); ?></div>
                         </a></li>
-                    <li><a href="contact">
+                    <li><a href="customer-service-s-0">
                             <div class="over1"></div>
                             <div class="over2"></div>
-                            <div class="txt1"><?php echo language::translate('title_site_meni_about', 'Kontakt'); ?></div>
-                            <div class="txt2">Kontaktirajte nas</div>
+                            <div class="txt1"><?php echo language::translate('title_site_meni_contact', 'Kontakt'); ?></div>
+                            <div class="txt2"><?php echo language::translate('title_site_meni_contact_s', 'Kontaktirajte Nas'); ?></div>
                         </a></li>
                 </ul>
             </div>
@@ -70,17 +70,17 @@
 </div>
 
 <div class="top1 clearfix">
-    <div class="menu_top clearfix">
+    <!-- <div class="menu_top clearfix">
         <ul id="menu_top" class="clearfix">
             <li><a href="#">Site Map</a></li>
             <li><a href="#">Partners</a></li>
             <li><a href="#">Contacts</a></li>
             <li><a href="#">Privacy Policy</a></li>
         </ul>
-    </div>
+    </div> -->
     <div class="top2">
         <a href="#" class="top_banner1">
-            <div class="txt1"><?php echo language::translate('title_site_chat_ulaz', 'CChat'); ?></div>
+            <div class="txt1"><?php echo language::translate('title_site_chat_ulaz', 'Online Chat'); ?></div>
             <div class="txt2"><?php echo language::translate('title_site_chat_ul', 'Klikni za ulaz'); ?></div><img src="images/top_banner1_img.png" alt="" class="img">
         </a>
         <a href="#" class="top_banner2">

@@ -4,7 +4,7 @@ $box_team_cache_token = cache::token('box_team', ['language'], 'file');
 if (cache::capture($box_team_cache_token)) {
 
     $team_query = database::query(
-        "select * from " . DB_TABLE_PREFIX . "team WHERE type='1' order by priority, name;"
+        "select * from " . DB_TABLE_PREFIX . "team WHERE type='2' order by priority, name;"
     );
 
     if (database::num_rows($team_query)) {
@@ -21,8 +21,7 @@ if (cache::capture($box_team_cache_token)) {
                 'caption' => $dj['caption'],
             ];
         }
-
-        echo $box_team->stitch('views/box_site_team');
+        echo $box_team->stitch('views/box_site_vip');
     }
 
     cache::end_capture($box_team_cache_token);

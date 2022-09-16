@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="{snippet:template_path}css/bootstrap-responsive.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="{snippet:template_path}css/camera.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="{snippet:template_path}css/style.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{snippet:template_path}css/touchTouch.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="{snippet:template_path}css/isotope.css" type="text/css" media="screen">
+
   {snippet:head_tags}
   {snippet:style}
 </head>
@@ -50,7 +53,8 @@
 
             <script type="text/javascript" src="{snippet:template_path}js/camera.js"></script>
             <script type="text/javascript" src="{snippet:template_path}js/jquery.mobile.customized.min.js"></script>
-
+            <script type="text/javascript" src="{snippet:template_path}js/touchTouch.jquery.js"></script>
+            <script type="text/javascript" src="{snippet:template_path}js/jquery.isotope.min.js"></script>
             <script type="text/javascript" src="{snippet:template_path}js/jquery.caroufredsel.js"></script>
             <script type="text/javascript" src="{snippet:template_path}js/jquery.touchSwipe.min.js"></script>
             <script>
@@ -117,6 +121,45 @@
               }); //
             </script>
             {snippet:javascript}
+            <script>
+              $(document).ready(function() {
+                //	
+
+              }); //
+              $(window).load(function() {
+                // isotop
+                var $container = $('#isotope-items'),
+                  $optionSet = $('#isotope-options'),
+                  $optionSets = $('#isotope-filters'),
+                  $optionLinks = $optionSets.find('a');
+                $container.isotope({
+                  filter: '*',
+                  layoutMode: 'fitRows'
+                });
+                $optionLinks.click(function() {
+                  var $this = $(this);
+                  // don't proceed if already selected 
+                  if ($this.hasClass('selected')) {
+                    return false;
+                  }
+                  $optionSet.find('.selected').removeClass('selected');
+                  $this.addClass('selected');
+
+                  var selector = $(this).attr('data-filter');
+                  $container.isotope({
+                    filter: selector
+                  });
+                  return false;
+                });
+                $(window).on("resize", function(event) {
+                  $container.isotope('reLayout');
+                });
+
+                // touchTouch
+                $('.thumb-isotope .thumbnail a').touchTouch();
+
+              }); //
+            </script>
 </body>
 
 </html>

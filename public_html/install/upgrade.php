@@ -4,7 +4,7 @@
 if (php_sapi_name() == 'cli') {
 
   if ((!isset($argv[1])) || ($argv[1] == 'help') || ($argv[1] == '-h') || ($argv[1] == '--help')) {
-    echo "\nxMexpi® 1.0.0\n"
+    echo "\xMexpi® 1.0.1\n"
       . "Copyright (c) " . date('Y') . " xMexpi AB\n"
       . "https://www.xmexpi.com/\n"
       . "Usage: php install.php [options]\n\n"

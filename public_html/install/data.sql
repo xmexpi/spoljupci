@@ -347,9 +347,32 @@ INSERT INTO `xp_settings` (`setting_group_key`, `type`, `title`, `description`, 
 ('advanced', 'local', 'Control Panel Link', 'The URL to your control panel, e.g. cPanel.', 'control_panel_link', '?app=settings&doc=advanced&action=edit&key=control_panel_link', 'text()', 18, NOW(), NOW()),
 ('advanced', 'local', 'Database Admin Link', 'The URL to your database manager, e.g. phpMyAdmin.', 'database_admin_link', '?app=settings&doc=advanced&action=edit&key=database_admin_link', 'text()', 19, NOW(), NOW()),
 ('advanced', 'local', 'Webmail Link', 'The URL to your webmail client.', 'webmail_link', '?app=settings&doc=advanced&action=edit&key=webmail_link', 'text()', 20, NOW(), NOW()),
-('security', 'local', 'CAPTCHA', 'Prevent robots from posting form data by enabling CAPTCHA security.', 'captcha_enabled', '1', 'toggle()', 16, NOW(), NOW()),
+('security', 'local', 'CAPTCHA', 'Prevent robots from posting form data by enabling CAPTCHA security.', 'captcha_enabled', '0', 'toggle()', 16, NOW(), NOW()),
 ('', 'global', 'Site Template', '', 'site_template_site', 'default.site', 'template("site")', 0, NOW(), NOW()),
 ('', 'global', 'Site Template Settings', '', 'site_template_site_settings', '{"sidebar_parallax_effect":"1","compact_category_tree":"0","cookie_acceptance":"1"}', 'text()', 0, NOW(), NOW()),
 ('', 'global', 'Admin Template', '', 'site_template_admin', 'default.admin', 'template("admin")', 0, NOW(), NOW()),
 ('', 'global', 'Jobs Last Push', 'Time when background jobs were last pushed for execution.', 'jobs_last_push', NOW(), 'text()', 0, NOW(), NOW()),
 ('', 'local', 'Date Cache Cleared', 'Do not use system cache older than breakpoint.', 'cache_system_breakpoint', NOW(), 'text()', 0, NOW(), NOW());
+-- --------------------------------------------------------
+INSERT INTO `xp_slides` (`id`, `status`, `languages`, `name`, `image`, `priority`, `date_valid_from`, `date_valid_to`, `date_updated`, `date_created`) VALUES
+(1, 1, '', 'demo', 'slides/slide01.jpg', 1, NULL, NULL, NOW(), NOW()),
+(2, 1, '', 'demo', 'slides/slide01.jpg', 1, NULL, NULL, NOW(), NOW()),
+(3, 1, '', 'demo', 'slides/slide01.jpg', 1, NULL, NULL, NOW(), NOW());
+
+-- --------------------------------------------------------
+INSERT INTO `xp_slides_info` (`id`, `slide_id`, `language_code`, `caption`, `link`) VALUES
+(1, 1, 'en', '', ''),
+(2, 2, 'en', '', ''),
+(3, 3, 'en', '', '');
+
+-- --------------------------------------------------------
+INSERT INTO `xp_team` (`id`, `status`, `type`, `name`, `image`, `caption`, `priority`, `date_valid_from`, `date_valid_to`, `date_updated`, `date_created`) VALUES
+(1, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(2, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(3, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(4, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(5, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(6, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(7, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(8, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW()),
+(9, 1, 1, 'DJ Demo','team/default.jpg', 'DJ Demo', 1, NULL, NULL, NOW(), NOW());

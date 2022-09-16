@@ -1,19 +1,19 @@
 <?php
 
-if (!empty($_GET['team_id'])) {
-  $team = new ent_team($_GET['team_id']);
+if (!empty($_GET['photo_id'])) {
+  $photo = new ent_gallery($_GET['photo_id']);
 } else {
-  $team = new ent_team();
+  $photo = new ent_gallery();
 }
 
 if (empty($_POST)) {
-  $_POST = $team->data;
+  $_POST = $photo->data;
 }
 
-document::$snippets['title'][] = !empty($team->data['id']) ? language::translate('title_edit_dj', 'Izmjeni DJ') : language::translate('title_add_new_dj', 'Dodaj Novog DJ');
+document::$snippets['title'][] = !empty($photo->data['id']) ? language::translate('title_edit_photo', 'Izmjeni Sliku') : language::translate('title_add_new_photo', 'Dodaj Novu Sliku');
 
-breadcrumbs::add(language::translate('title_team', 'team'), document::link(WS_DIR_ADMIN, ['doc' => 'team'], ['app']));
-breadcrumbs::add(!empty($team->data['id']) ? language::translate('title_edit_dj', 'Izmjeni DJ') : language::translate('title_add_dj', 'Dodaj Novog DJ'));
+breadcrumbs::add(language::translate('title_gallery', 'gallery'), document::link(WS_DIR_ADMIN, ['doc' => 'gallery'], ['app']));
+breadcrumbs::add(!empty($photo->data['id']) ? language::translate('title_edit_dj', 'Izmjeni DJ') : language::translate('title_add_photo', 'Dodaj Novu Sliku'));
 
 if (isset($_POST['save'])) {
 
@@ -30,7 +30,7 @@ if (isset($_POST['save'])) {
 
     $fields = [
       'status',
-      'type',
+      'user_id',
       'languages',
       'name',
       'caption',
@@ -41,17 +41,17 @@ if (isset($_POST['save'])) {
     ];
 
     foreach ($fields as $field) {
-      if (isset($_POST[$field])) $team->data[$field] = $_POST[$field];
+      if (isset($_POST[$field])) $photo->data[$field] = $_POST[$field];
     }
 
     if (!empty($_FILES['image']['tmp_name']) && is_uploaded_file($_FILES['image']['tmp_name'])) {
-      $team->save_image($_FILES['image']['tmp_name']);
+      $photo->save_image($_FILES['image']['tmp_name']);
     }
 
-    $team->save();
+    $photo->save();
 
     notices::add('success', language::translate('success_changes_saved', 'Changes saved'));
-    header('Location: ' . document::link(WS_DIR_ADMIN, ['doc' => 'team'], true, ['action', 'team_id']));
+    header('Location: ' . document::link(WS_DIR_ADMIN, ['doc' => 'gallery'], true, ['action', 'photo_id']));
     exit;
   } catch (Exception $e) {
     notices::add('errors', $e->getMessage());
@@ -61,12 +61,12 @@ if (isset($_POST['save'])) {
 if (isset($_POST['delete'])) {
 
   try {
-    if (empty($team->data['id'])) throw new Exception(language::translate('error_must_provide_dj', 'You must provide a DJ'));
+    if (empty($photo->data['id'])) throw new Exception(language::translate('error_must_provide_dj', 'You must provide a DJ'));
 
-    $team->delete();
+    $photo->delete();
 
     notices::add('success', language::translate('success_changes_saved', 'Changes saved'));
-    header('Location: ' . document::link(WS_DIR_ADMIN, ['doc' => 'team'], true, ['action', 'team_id']));
+    header('Location: ' . document::link(WS_DIR_ADMIN, ['doc' => 'gallery'], true, ['action', 'photo_id']));
     exit;
   } catch (Exception $e) {
     notices::add('errors', $e->getMessage());
@@ -75,10 +75,10 @@ if (isset($_POST['delete'])) {
 ?>
 <div class="panel panel-app">
   <div class="panel-heading">
-    <?php echo $app_icon; ?> <?php echo !empty($team->data['id']) ? language::translate('title_edit_dj', 'Izmjeni DJ') : language::translate('title_add_dj', 'Dodaj Novog DJ'); ?>
+    <?php echo $app_icon; ?> <?php echo !empty($photo->data['id']) ? language::translate('title_edit_photo', 'Izmjeni Sliku') : language::translate('title_add_photo', 'Dodaj Novu Sliku'); ?>
   </div>
   <div class="panel-body">
-    <?php echo functions::form_draw_form_begin('team_form', 'post', false, true, 'style="max-width: 640px;"'); ?>
+    <?php echo functions::form_draw_form_begin('gallery_form', 'post', false, true, 'style="max-width: 640px;"'); ?>
     <div class="row">
       <div class="form-group col-md-6">
         <label><?php echo language::translate('title_status', 'Status'); ?></label>
@@ -91,26 +91,17 @@ if (isset($_POST['delete'])) {
       </div>
     </div>
 
-    <div class="row">
 
-      <?php if (!empty($team->data['image'])) echo '<p><img src="' . document::href_link('images/' . $team->data['image']) . '" alt="" class="img-responsive" /></p>'; ?>
 
-      <div class="form-group col-md-6">
-        <label><?php echo language::translate('title_image', 'Image'); ?></label>
-        <?php echo functions::form_draw_file_field('image'); ?>
-        <?php echo (!empty($team->data['image'])) ? '</label>' . $team->data['image'] : ''; ?>
-      </div>
-      <div class="form-group col-md-6">
-        <label><?php echo language::translate('xmexpi_select_vip_dj', 'VIP ILI Ekipa'); ?></label>
-        <?php
-        $options = array(
-          array(language::translate('xmexpi_vip', 'VIP'), '1'),
-          array(language::translate('xmexpi_dj', 'Tim Ekipa'), '2'),
-        );
-        echo functions::form_draw_select_field('type', $options, true);
-        ?>
-      </div>
+    <?php if (!empty($photo->data['image'])) echo '<p><img src="' . document::href_link('images/' . $photo->data['image']) . '" alt="" class="img-responsive" /></p>'; ?>
+
+    <div class="form-group">
+      <label><?php echo language::translate('title_image', 'Image'); ?></label>
+      <?php echo functions::form_draw_file_field('image'); ?>
+      <?php echo (!empty($photo->data['image'])) ? '</label>' . $photo->data['image'] : ''; ?>
     </div>
+
+
 
 
 
@@ -127,7 +118,6 @@ if (isset($_POST['delete'])) {
     </div>
 
     <div class="row">
-
       <div class="form-group col-md-3">
         <label><?php echo language::translate('title_priority', 'Priority'); ?></label>
         <?php echo functions::form_draw_number_field('priority', true); ?>
@@ -137,7 +127,7 @@ if (isset($_POST['delete'])) {
     <div class="panel-action btn-group">
       <?php echo functions::form_draw_button('save', language::translate('title_save', 'Save'), 'submit', '', 'save'); ?>
       <?php echo functions::form_draw_button('cancel', language::translate('title_cancel', 'Cancel'), 'button', 'onclick="history.go(-1);"', 'cancel'); ?>
-      <?php echo (isset($team->data['id'])) ? functions::form_draw_button('delete', language::translate('title_delete', 'Delete'), 'submit', 'formnovalidate onclick="if (!window.confirm(\'' . language::translate('text_are_you_sure', 'Are you sure?') . '\')) return false;"', 'delete') : false; ?>
+      <?php echo (isset($photo->data['id'])) ? functions::form_draw_button('delete', language::translate('title_delete', 'Delete'), 'submit', 'formnovalidate onclick="if (!window.confirm(\'' . language::translate('text_are_you_sure', 'Are you sure?') . '\')) return false;"', 'delete') : false; ?>
     </div>
 
     <?php echo functions::form_draw_form_end(); ?>

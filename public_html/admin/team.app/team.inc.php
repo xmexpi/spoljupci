@@ -8,10 +8,10 @@ breadcrumbs::add(language::translate('title_team', 'Ekipa Radia'));
 if (isset($_POST['enable']) || isset($_POST['disable'])) {
 
   try {
-    if (empty($_POST['Ekipa Radija'])) throw new Exception(language::translate('error_must_select_Ekipa Radija', 'You must select Ekipa Radija'));
+    if (empty($_POST['djs'])) throw new Exception(language::translate('error_must_select_Ekipa Radija', 'You must select Ekipa Radija'));
 
-    foreach ($_POST['Ekipa Radija'] as $dj_id) {
-      $dj = new ent_slide($dj_id);
+    foreach ($_POST['djs'] as $dj_id) {
+      $dj = new ent_team($dj_id);
       $dj->data['status'] = !empty($_POST['enable']) ? 1 : 0;
       $dj->save();
     }
@@ -78,7 +78,7 @@ $num_pages = ceil($num_rows / settings::get('data_table_rows_per_page'));
       <tbody>
         <?php foreach ($team as $dj) { ?>
           <tr class="<?php echo empty($dj['status']) ? 'semi-transparent' : null; ?>">
-            <td><?php echo functions::form_draw_checkbox('lides[]', $dj['id']); ?></td>
+            <td><?php echo functions::form_draw_checkbox('djs[]', $dj['id']); ?></td>
             <td><?php echo functions::draw_fonticon('fa-circle', 'style="color: ' . (!empty($dj['status']) ? '#88cc44' : '#ff6644') . ';"'); ?></td>
             <td><?php echo $dj['id']; ?></td>
             <td><a href="<?php echo document::href_link('', ['doc' => 'edit_dj', 'team_id' => $dj['id']], true); ?>"><?php echo $dj['name']; ?></a></td>

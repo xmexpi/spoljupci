@@ -20,9 +20,11 @@ DROP TABLE IF EXISTS `xp_settings`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_slides`;
 -- --------------------------------------------------------
-DROP TABLE IF EXISTS `xp_slide_info`;
+DROP TABLE IF EXISTS `xp_slides_info`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_team`;
+-- --------------------------------------------------------
+DROP TABLE IF EXISTS `xp_gallery`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_settings_groups`;
 -- --------------------------------------------------------
