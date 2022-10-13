@@ -18,7 +18,6 @@
 
   <div class="row">
     <div class="span7">
-
       <h2>Welcome to our online radio station</h2>
 
       <h4>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor .</h4>
@@ -36,24 +35,7 @@
       </div>
 
       <h3>Latest Events <a href="#">news archive</a></h3>
-
-      <div class="date1">12 of December, 2013</div>
-
-      <div>
-        <a href="#">Ut enim ad minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est Aenean semper aliquet libero.
-      </div>
-
-      <div class="line1"></div>
-
-      <div class="date1">12 of December, 2013</div>
-
-      <div>
-        <a href="#">Maecenas ac est hendrerit magna aliquam sagittis</a>. Curabitur convallis interdum erat. Proin feugiat sem eu nisl. Aliquam erat volutpat. Fusce a mauris vel nulla faucibus tempor. Aenean scelerisque neque aliquam nibh venenatis molestie. Integer gravida ornare lectus. Nunc vehicula elit a tellus.
-      </div>
-
-
-
-
+      <?php foreach ($pages as $page) echo '<div class="date1">' . substr($page['title'], 0, 70) . '</div><div>' . substr($page['content'], 0, 300) . '</br><a href="' . htmlspecialchars($page['link']) . '">Procitaj Vise</a></div>' . PHP_EOL; ?>
 
 
     </div>

@@ -97,6 +97,6 @@ if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) {
 }
 
 // Password Encryption Salt
-define('PASSWORD_SALT', 'toLBc255P6fG4QVI5HxQL4XVbm8jKMbdhmYPyNQUP2zK9m6ZXIxdwVWI0cleJaOFE35tCNaVhDKQYC1eAq6zkrCxZelueBCNDtBfa2CNG3wfd9DTrrmu89wHyRZEvcK0');
+define('PASSWORD_SALT', 's3u6lp8R15hXRMITzXtzdL44Mwgi8sggeKg9XoqUCAjPnQS3f03CYWb2yfYxKHvU1BYVxcZNNZ1DNSalr86PyPsVHTnN02180U8pWNaMzXKVFEc9QpMPjKbTeHDMkAVo');
 // License Key
-define('LICENSE_KEY', 'XP-93hef9587i');
+define('LICENSE_KEY', 'XP-6hcgc41b6j');

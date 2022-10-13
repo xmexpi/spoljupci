@@ -15,32 +15,36 @@
         </div>
         <div class="span4">
             <div class="bot1_block">
-                <div class="bot1_title">PROGRAMS</div>
+                <div class="bot1_title"><?php echo language::translate('xmexpi_ads_footer', 'Reklame'); ?></div>
             </div>
             <div class="row">
                 <div class="span2">
                     <div class="bot1_block">
                         <ul class="ul0">
-                            <li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Sit amet consectetue</a></li>
-                            <li><a href="#">Adipiscing elit</a></li>
-                            <li><a href="#">Nunc suscipit</a></li>
-                            <li><a href="#">Suspendisse enim</a></li>
-                            <li><a href="#">Convallis non cursus</a></li>
-                            <li><a href="#">Dignissim et est</a></li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="span2">
                     <div class="bot1_block">
                         <ul class="ul0">
-                            <li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Sit amet consectetue</a></li>
-                            <li><a href="#">Adipiscing elit</a></li>
-                            <li><a href="#">Nunc suscipit</a></li>
-                            <li><a href="#">Suspendisse enim</a></li>
-                            <li><a href="#">Convallis non cursus</a></li>
-                            <li><a href="#">Dignissim et est</a></li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
+                            <li>
+                                <div class="logo_wrapper"><a href="<?php echo document::href_ilink(''); ?>" class="logo"><img src="<?php echo document::href_link('images/logotype.png'); ?>" alt="<?php echo settings::get('site_name'); ?>"></a></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -48,13 +52,12 @@
         </div>
         <div class="span4">
             <div class="kv2">
-                <div class="txt1">Call us:</div>
-                <div class="txt2">1 800 123 4567</div>
-                <div class="txt3">Address:</div>
-                <div class="txt4">8901 Marmora Road, Glasgow, D04 89GR.<br>
-                    Telephone: +1 800 123 1234<br>
-                    E-mail: <a href="#">mail@bteamny.com</a></div>
-                <a href="#" class="button1">Location</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="button1">Contact Us</a>
+                <div class="txt1"><?php echo language::translate('xmexpi_vlasnik', 'VLASNIK:'); ?></div>
+                <div class="txt2"><?php echo language::translate('xmexpi_gazda', 'MEDO'); ?></div>
+                <div class="txt3"><?php echo language::translate('xmexpi_contact_footer', 'KONTAKT:'); ?></div>
+                <div class="txt4"><?php echo language::translate('xmexpi_phone_footer', 'Mobitel: +13332222'); ?><br>
+                    <?php echo language::translate('xmexpi_email_footer', 'Email: info@xmexpi.com'); ?></div>
+                <a href="chat" class="button1">Chat</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="customer-service-s-0" class="button1">Kontaktiraj Nas</a>
             </div>
         </div>
     </div>
