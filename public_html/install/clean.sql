@@ -32,6 +32,8 @@ DROP TABLE IF EXISTS `xp_translations`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_users`;
 -- --------------------------------------------------------
+DROP TABLE IF EXISTS `xp_visitors`;
+-- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_zones`;
 -- --------------------------------------------------------
 DROP TABLE IF EXISTS `xp_zones_to_geo_zones`;

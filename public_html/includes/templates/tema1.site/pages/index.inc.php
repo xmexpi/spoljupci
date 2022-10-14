@@ -18,7 +18,7 @@
 
   <div class="row">
     <div class="span7">
-      <h2>Welcome to our online radio station</h2>
+      <!-- <h2>Welcome to our online radio station</h2>
 
       <h4>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor .</h4>
 
@@ -32,12 +32,13 @@
             <a href="#" class="button1">Read More</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <h3>Latest Events <a href="#">news archive</a></h3>
       <?php foreach ($pages as $page) echo '<div class="date1">' . substr($page['title'], 0, 70) . '</div><div>' . substr($page['content'], 0, 300) . '</br><a href="' . htmlspecialchars($page['link']) . '">Procitaj Vise</a></div>' . PHP_EOL; ?>
 
 
     </div>
+    <?php include vmod::check(FS_DIR_APP . 'includes/boxes/box_music_player.inc.php'); ?>
     <?php include vmod::check(FS_DIR_APP . 'includes/boxes/box_vip.inc.php'); ?>
   </div>

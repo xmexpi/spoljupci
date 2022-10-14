@@ -253,6 +253,28 @@ CREATE TABLE `xp_team` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET={DB_DATABASE_CHARSET} COLLATE {DB_DATABASE_COLLATION};
 -- --------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `xp_visitors` (
+      `id` bigint(20) NOT NULL AUTO_INCREMENT,
+      `uid` varchar(13) NOT NULL,
+      `cart_uid` varchar(13) NOT NULL,
+      `referrer` varchar(256) NOT NULL,
+      `ip` varchar(39) NOT NULL,
+      `host` varchar(64) NOT NULL,
+      `user_agent` varchar(256) NOT NULL,
+      `language` varchar(2) NOT NULL,
+      `country` varchar(2) NOT NULL,
+      `pageviews` int(11) NOT NULL,
+      `last_page` varchar(128) NOT NULL,
+      `date_updated` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+      `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+      PRIMARY KEY (`id`),
+      KEY `uid` (`uid`),
+      KEY `date_updated` (`date_updated`),
+      KEY `date_created` (`date_created`),
+      KEY `country` (`country`),
+      KEY `language` (`language`)
+    );
+-- --------------------------------------------------------
 CREATE TABLE `xp_gallery` (
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` TINYINT(11) NOT NULL DEFAULT '0',

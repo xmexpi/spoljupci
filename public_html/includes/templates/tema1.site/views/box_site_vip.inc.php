@@ -28,4 +28,5 @@
             }(document, 'script', 'weatherwidget-io-js');
         </script>
     </div>
+
 </div>

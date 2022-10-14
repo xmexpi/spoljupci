@@ -53,7 +53,7 @@
         <div class="span4">
             <div class="kv2">
                 <div class="txt1"><?php echo language::translate('xmexpi_vlasnik', 'VLASNIK:'); ?></div>
-                <div class="txt2"><?php echo language::translate('xmexpi_gazda', 'MEDO'); ?></div>
+                <div class="txt2"><?php echo language::translate('xmexpi_gazda_radija', 'Ime Vlasnika'); ?></div>
                 <div class="txt3"><?php echo language::translate('xmexpi_contact_footer', 'KONTAKT:'); ?></div>
                 <div class="txt4"><?php echo language::translate('xmexpi_phone_footer', 'Mobitel: +13332222'); ?><br>
                     <?php echo language::translate('xmexpi_email_footer', 'Email: info@xmexpi.com'); ?></div>
@@ -64,7 +64,7 @@
 </div>
 <div class="box4">
     <footer>
-        <div class="copyright">Copyright © 2013. All rights reserved.</div>
+        <div class="copyright">Copyright © 2022. All rights reserved <a href="http://www.xmexpi.com">xMexpi Design</a></div>
     </footer>
 </div>
 </div>
@@ -75,7 +75,8 @@
 </div>
 </div>
 <script type="text/javascript" src="{snippet:template_path}js/bootstrap.js"></script>
-
+<input type="hidden" id="streamurlPlayer3" value="<?php echo settings::get('site_stream_link'); ?>" />
+<input type="hidden" id="namePlayer3" value="test" />
 </body>
 
 </html>

@@ -11,19 +11,25 @@
             </a>
             <div class="nav-collapse nav-collapse_ collapse">
                 <ul class="nav sf-menu clearfix">
-                    <li class="active"><a href="/">
+                    <li <?php if (route::$route['page'] == 'index') {
+                            echo 'class="active"';
+                        } ?>><a href="/">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_home', 'Naslovna'); ?></div>
                             <div class="txt2"><?php echo language::translate('title_site_meni_home_s', 'Početna Stranica'); ?></div>
                         </a></li>
-                    <li><a href="about">
+                    <li <?php if (route::$route['page'] == 'about') {
+                            echo 'class="active"';
+                        } ?>><a href="about">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_about', 'O Nama'); ?></div>
                             <div class="txt2"><?php echo language::translate('title_site_meni_about_s', 'naša priča'); ?></div>
                         </a></li>
-                    <li><a href="chat">
+                    <li <?php if (route::$route['page'] == 'chat') {
+                            echo 'class="active"';
+                        } ?>><a href="chat">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_chat', 'Chat'); ?></div>
@@ -42,13 +48,17 @@
                             <li><a href="404.html">404 page not found</a></li>
                         </ul> -->
                     </li>
-                    <li><a href="gallery">
+                    <li <?php if (route::$route['page'] == 'gallery') {
+                            echo 'class="active"';
+                        } ?>><a href="gallery">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_galerija', 'Galerija'); ?></div>
                             <div class="txt2"><?php echo language::translate('title_site_meni_galerija_s', 'Slike radija'); ?></div>
                         </a></li>
-                    <li><a href="customer-service-s-0">
+                    <li <?php if (route::$route['page'] == 'customer-service-s-0') {
+                            echo 'class="active"';
+                        } ?>><a href="customer-service-s-0">
                             <div class="over1"></div>
                             <div class="over2"></div>
                             <div class="txt1"><?php echo language::translate('title_site_meni_contact', 'Kontakt'); ?></div>
@@ -81,11 +91,11 @@
     <div class="top2">
         <a href="#" class="top_banner1">
             <div class="txt1"><?php echo language::translate('title_site_chat_ulaz', 'Online Chat'); ?></div>
-            <div class="txt2"><?php echo language::translate('title_site_chat_ul', 'Klikni za ulaz'); ?></div><img src="images/top_banner1_img.png" alt="" class="img">
+            <div class="txt2"><?php echo language::translate('title_site_chat_ul', 'Klikni za ulaz'); ?></div><img src="{snippet:template_path}images/top_banner1_img.png" alt="" class="img">
         </a>
-        <a href="#" class="top_banner2">
-            <div class="txt1">now on air</div>
-            <div class="txt2">dj brabus</div><img src="images/top_banner2_img.png" alt="" class="img">
+        <a onclick="togglePlay()" class="top_banner2">
+            <div id="topHeaderartist" class="txt1"><?php echo settings::get('site_name'); ?></div>
+            <div id="topHeadersong" class="txt2"><?php echo language::translate('xmexpi_klikni_slusaj', 'Pokreni Radio Klikom Ovdje'); ?></div><img id="topHeaderButton" src="{snippet:template_path}images/top_banner2_img.png" alt="" class="img">
         </a>
     </div>
 

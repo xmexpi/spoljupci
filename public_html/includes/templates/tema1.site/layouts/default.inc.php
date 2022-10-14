@@ -42,9 +42,7 @@
                 <?php include vmod::check(FS_DIR_APP . 'includes/boxes/box_site_footer.inc.php'); ?>
               </div>
 
-              <a id="scroll-up" class="hidden-print" href="#">
-                <?php echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
-              </a>
+
 
               {snippet:foot_tags}
               <script type="text/javascript" src="{snippet:template_path}js/jquery.js"></script>
@@ -59,6 +57,7 @@
               <script type="text/javascript" src="{snippet:template_path}js/jquery.isotope.min.js"></script>
               <script type="text/javascript" src="{snippet:template_path}js/jquery.caroufredsel.js"></script>
               <script type="text/javascript" src="{snippet:template_path}js/jquery.touchSwipe.min.js"></script>
+              <script type="text/javascript" src="{snippet:template_path}js/player.js"></script>
               <script>
                 $(document).ready(function() {
                   // camera

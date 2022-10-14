@@ -74,6 +74,7 @@ define('DB_TABLE_SLIDES',                            '`' . DB_DATABASE . '`.`' .
 define('DB_TABLE_SLIDES_INFO',                       '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'slides_info`');
 define('DB_TABLE_TRANSLATIONS',                      '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'translations`');
 define('DB_TABLE_USERS',                             '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'users`');
+define('DB_TABLE_VISITORS',                          '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'visitors`');
 define('DB_TABLE_ZONES',                             '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'zones`');
 define('DB_TABLE_ZONES_TO_GEO_ZONES',                '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'zones_to_geo_zones`');
 
@@ -97,6 +98,6 @@ if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) {
 }
 
 // Password Encryption Salt
-define('PASSWORD_SALT', 's3u6lp8R15hXRMITzXtzdL44Mwgi8sggeKg9XoqUCAjPnQS3f03CYWb2yfYxKHvU1BYVxcZNNZ1DNSalr86PyPsVHTnN02180U8pWNaMzXKVFEc9QpMPjKbTeHDMkAVo');
+define('PASSWORD_SALT', 'DVyvfokSnFk3gGeugT0sonxIE8YHPuddYgW9nrJojzKDAn0i4keNBRBkk0MBEXpgIntVTkR1XHQg4K0hU1QwFELbW5JM9IC9t8FCZKazpRvNei35mVyysYZOF7jebHBC');
 // License Key
-define('LICENSE_KEY', 'XP-6hcgc41b6j');
+define('LICENSE_KEY', 'XP-fgkj806hjg');

@@ -74,6 +74,7 @@ define('DB_TABLE_SLIDES',                            '`' . DB_DATABASE . '`.`' .
 define('DB_TABLE_SLIDES_INFO',                       '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'slides_info`');
 define('DB_TABLE_TRANSLATIONS',                      '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'translations`');
 define('DB_TABLE_USERS',                             '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'users`');
+define('DB_TABLE_VISITORS',                          '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'visitors`');
 define('DB_TABLE_ZONES',                             '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'zones`');
 define('DB_TABLE_ZONES_TO_GEO_ZONES',                '`' . DB_DATABASE . '`.`' . DB_TABLE_PREFIX . 'zones_to_geo_zones`');
 
